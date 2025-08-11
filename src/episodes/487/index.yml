@@ -1,0 +1,29 @@
+title: Chrome 139, item-flow часть 2, Tailwind и CSS снова друзья, TypeScript 5.9, XSLT пора уйти
+
+date: 2025-08-11T09:00
+
+hosts:
+  - Вадим Макеев
+  - Никита Дубко
+  - Алексей Симоненко
+  - Андрей Мелихов
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:23
+    title: 'Проблемы с доменом'
+  - time: 00:02:38
+    title: 'Chrome 139'
+  - time: 00:32:21
+    title: 'Item-flow, часть 2'
+  - time: 00:51:02
+    title: 'Tailwind и CSS снова друзья'
+  - time: 01:09:43
+    title: 'TypeScript 5.9'
+  - time: 01:19:56
+    title: 'XSLT пора уйти'
+  - time: 01:37:18
+    title: 'Ответы на вопросы'
+
+duration: 01:43:54
