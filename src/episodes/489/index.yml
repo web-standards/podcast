@@ -1,0 +1,25 @@
+title: Firefox 142, веб-аппы в Firefox, CSS random(), решение по masonry, неудобные ID, просто шипь
+
+date: 2025-08-25T09:00
+
+hosts:
+  - Никита Дубко
+  - Алексей Симоненко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:22
+    title: 'Firefox 142'
+  - time: 00:17:41
+    title: 'Веб-аппы в Firefox'
+  - time: 00:33:39
+    title: 'CSS random()'
+  - time: 00:53:39
+    title: 'Решение по masonry'
+  - time: 01:03:46
+    title: 'Неудобные ID'
+  - time: 01:18:20
+    title: 'Просто шипь'
+
+duration: 01:38:15
