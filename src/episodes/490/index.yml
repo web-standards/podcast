@@ -1,0 +1,26 @@
+title: JSON.stringify, Anchor Positioning, TS в Node.js, radial-gradient, SVG-кривые, агенты в Zed
+
+date: 2025-09-01T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Полина Гуртовая
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:48
+    title: 'JSON.stringify в V8'
+  - time: 00:20:58
+    title: 'Введение в Anchor Positioning'
+  - time: 00:48:15
+    title: 'Опыт TypeScript в Node.js'
+  - time: 01:07:31
+    title: 'Беззубый radial-gradient()'
+  - time: 01:27:03
+    title: 'SVG-кривые руками'
+  - time: 01:39:25
+    title: 'Сторонние агенты в Zed'
+
+duration: 01:50:24
