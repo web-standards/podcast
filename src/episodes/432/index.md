@@ -1,9 +1,9 @@
 ## Доклады и лайвы
 
 - [CSS Day 2024](https://www.youtube.com/playlist?list=PLjnstNlepBvO0-I7iwqpkOY_fwAop6Pl-)
-- [Character Modeling in CSS](https://www.youtube.com/watch?v=l9It4DraRm0)
-- [Лайв Доки: Решаем задачи на CSS](https://www.youtube.com/watch?v=NY0or-THrlE)
-- [Лайв Вадима и Юли: Птички на CSS](https://www.youtube.com/live/ZhWdhMpJ8bs)
+- [Character Modeling in CSS](https://youtu.be/l9It4DraRm0)
+- [Лайв Доки: Решаем задачи на CSS](https://youtu.be/NY0or-THrlE)
+- [Лайв Вадима и Юли: Птички на CSS](https://youtu.be/ZhWdhMpJ8bs)
 
 ## Такой приватный Safari
 

@@ -1,8 +1,8 @@
 ## Стилизация форм
 
-- [Form control styling](https://www.youtube.com/watch?v=WgSiqSqxTxw)
+- [Form control styling](https://youtu.be/WgSiqSqxTxw)
 - [CSS Form Control Styling Level 1](https://www.w3.org/TR/css-forms-1/)
-- [Multicol and fragmentation](https://www.youtube.com/watch?v=NfwDP9shxNQ)
+- [Multicol and fragmentation](https://youtu.be/NfwDP9shxNQ)
 - [Slides: Multicol and Fragmentation](https://speaking.rachelandrew.co.uk/mI9WWD/multicol-and-fragmentation)
 
 ## Новости Vercel

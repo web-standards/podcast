@@ -30,6 +30,6 @@
 
 ## Socket
 
-- [Node on mobile, NodeConf EU 2022](https://www.youtube.com/watch?v=Ij2BN-hksaE)
+- [Node on mobile, NodeConf EU 2022](https://youtu.be/Ij2BN-hksaE)
 - [Socket — A New Runtime for the Web](https://socketsupply.co/blog/socket-runtime/)
 - [Socket SDK](https://sockets.sh)

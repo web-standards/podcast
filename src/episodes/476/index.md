@@ -1,10 +1,10 @@
 ## Поправочка
 
-- [Явное управление ресурсами при помощи Using и Symbol.dispose](https://www.youtube.com/watch?v=0Xw9uzgIO1k)
+- [Явное управление ресурсами при помощи Using и Symbol.dispose](https://youtu.be/0Xw9uzgIO1k)
 
 ## Google I/O
 
-- [Google I/O what’s new in Chrome](https://www.youtube.com/watch?v=o2wkYzu5u50)
+- [Google I/O what’s new in Chrome](https://youtu.be/o2wkYzu5u50)
 - [10 updates from Google I/O 2025](https://developer.chrome.com/blog/web-at-io25)
 - [MDN: Summarizer API](https://developer.mozilla.org/en-US/docs/Web/API/Summarizer_API)
 - [MDN: Translator and Language Detector APIs](https://developer.mozilla.org/en-US/docs/Web/API/Translator_and_Language_Detector_APIs)

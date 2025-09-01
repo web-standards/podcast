@@ -24,7 +24,7 @@
 ## Item-flow вместо Masonry
 
 - [Item Flow, Part 1: A unified concept for layout](https://webkit.org/blog/16587/item-flow-part-1-a-new-unified-concept-for-layout/)
-- [The future of CSS layouts: a unified approach](https://www.youtube.com/watch?v=lCnwX2QXTxk)
+- [The future of CSS layouts: a unified approach](https://youtu.be/lCnwX2QXTxk)
 
 ## Ответы на вопросы
 

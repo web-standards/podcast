@@ -1,6 +1,6 @@
 ## События
 
-- [Трансляция с Yamal.Dev Conf](https://www.youtube.com/watch?v=TGpo3lDi7_I)
+- [Трансляция с Yamal.Dev Conf](https://youtu.be/TGpo3lDi7_I)
 - [MoscowCSS онлайн 21 декабря](https://twitter.com/css_moscow/status/1471495375294894089)
 - [MinskCSS онлайн 26 января](https://minskcss.timepad.ru/event/1881868/)
 

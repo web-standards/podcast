@@ -13,7 +13,7 @@
 
 ## CSS-пластилин
 
-- [Drawing with CSS: Clay Character](https://www.youtube.com/watch?v=QxDf6VkqP4g)
+- [Drawing with CSS: Clay Character](https://youtu.be/QxDf6VkqP4g)
 
 ## Blockquote правильно
 

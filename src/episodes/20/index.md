@@ -50,4 +50,4 @@
 - [Brackets](http://brackets.io/)
 - [Adobe Web Platform](http://webplatform.adobe.com/)
 - [CSS Regions](http://webplatform.adobe.com/regions/)
-- [Snap.svg Animator для Adobe Flash](https://www.youtube.com/watch?v=waTuhjBSJrs)
+- [Snap.svg Animator для Adobe Flash](https://youtu.be/waTuhjBSJrs)

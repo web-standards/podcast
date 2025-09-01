@@ -18,7 +18,7 @@
 ## Версии Node.js и NODE_ENV
 
 - [You are not updating Node.js](https://adventures.nodeland.dev/archive/you-are-not-updating-nodejs/)
-- [NODE_ENV=production is a lie](https://www.youtube.com/watch?v=HMM7GJC5E2o)
+- [NODE_ENV=production is a lie](https://youtu.be/HMM7GJC5E2o)
 
 ## Тюнинг Prettier
 

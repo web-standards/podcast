@@ -8,7 +8,7 @@
 ## Chrome 85
 
 - [New in Chrome 85](https://developers.google.com/web/updates/2020/08/nic85)
-- [София Валитова: Типы данных в CSS](https://www.youtube.com/watch?v=PoWpkLeJnBA)
+- [София Валитова: Типы данных в CSS](https://youtu.be/PoWpkLeJnBA)
 
 ## Никто не новый IE
 

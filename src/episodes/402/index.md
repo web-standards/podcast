@@ -85,7 +85,7 @@
 
 ## Как дела у Лёши
 
-- [Старикам здесь не место?](https://www.youtube.com/watch?v=ISmD4Lik5oY)
+- [Старикам здесь не место?](https://youtu.be/ISmD4Lik5oY)
 - [Код Сурка](https://htmlacademy.ru/special/kodsurka)
 - [Фронтенд-олимпиада](https://htmlacademy.ru/olympics)
 

@@ -9,7 +9,7 @@
 
 ## Arc ищет за вас
 
-- [Meet Act II of Arc Browser: A browser that browses for you](https://www.youtube.com/watch?v=WIeJF3kL5ng)
+- [Meet Act II of Arc Browser: A browser that browses for you](https://youtu.be/WIeJF3kL5ng)
 - [Arc Search: Find Everything, Faster](https://arc.net/blog/arc-search)
 
 ## Dev-режим в Figma

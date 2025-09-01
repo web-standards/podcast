@@ -1,4 +1,4 @@
-[Лайв на Ютубе](https://youtube.com/live/ELn5T4nVc7k)
+[Лайв на Ютубе](https://youtu.be/ELn5T4nVc7k)
 
 ## Igalia и Interop
 

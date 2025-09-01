@@ -6,7 +6,7 @@
 ## События
 
 - [Видео с MoscowJS 50](https://moscowjs.org/)
-- [Видео с SECON.Weekend про фронтенд](https://www.youtube.com/watch?v=br37dBL3tSA)
+- [Видео с SECON.Weekend про фронтенд](https://youtu.be/br37dBL3tSA)
 - [Видео с Я.Субботника Pro](https://yandex.ru/promo/events/generated/ya-subbotnik-pro-po-razrabotke-i)
 - [JSConf Armenia в Ереване 23 октября](https://jsconf.am/)
 - [ITeaConf в Воронеже 31 октября](https://iteaconf.ru/)

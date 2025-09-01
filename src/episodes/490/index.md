@@ -1,4 +1,4 @@
-[Лайв на Ютубе](https://youtube.com/live/2kKgVoOy7rw)
+[Лайв на Ютубе](https://youtu.be/2kKgVoOy7rw)
 
 ## JSON.stringify в V8
 

@@ -46,7 +46,7 @@
 
 ## Шоу «Стандарт»
 
-- [The Standard E02: Fit to Page](https://www.youtube.com/watch?v=299RZ0d1LQY)
+- [The Standard E02: Fit to Page](https://youtu.be/299RZ0d1LQY)
 
 ## Фолбэки к шрифтам
 

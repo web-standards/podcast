@@ -24,7 +24,7 @@
 
 ## SVG-анимации
 
-- [Animating the Impossible](https://www.youtube.com/watch?v=OIC72pqIXyk)
+- [Animating the Impossible](https://youtu.be/OIC72pqIXyk)
 
 ## Будущее HTML-шаблонизации
 

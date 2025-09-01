@@ -8,7 +8,7 @@
 
 ## Arc Max и AI
 
-- [Introducing Arc Max](https://www.youtube.com/watch?v=y7koAGLf0EE)
+- [Introducing Arc Max](https://youtu.be/y7koAGLf0EE)
 
 ## Тёмные темы в CSS
 

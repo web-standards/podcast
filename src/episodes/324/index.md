@@ -43,7 +43,7 @@
 
 - [ECMAScript excitement](https://twitter.com/robpalmer2/status/1539883826662592512)
 - [ECMAScript 2022: What’s new?](https://2ality.com/2022/06/ecmascript-2022.html)
-- [TC39: взгляд изнутри, Сергей Рубанов](https://www.youtube.com/watch?v=_0psqory6rk&t=3369s)
+- [TC39: взгляд изнутри, Сергей Рубанов](https://youtu.be/_0psqory6rk&t=3369s)
 
 ## GitHub Copilot
 

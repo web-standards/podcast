@@ -7,7 +7,7 @@
 ## БЭМ
 
 - [БЭМ-методология: с чего всё начиналось и зачем это всё нужно](https://habr.ru/p/276035/)
-- [Видео «БЭМ — норм»](https://www.youtube.com/watch?v=RM55tkWfHDc)
+- [Видео «БЭМ — норм»](https://youtu.be/RM55tkWfHDc)
 
 ## Gulp
 

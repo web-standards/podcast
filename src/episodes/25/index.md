@@ -41,7 +41,7 @@
 - [Антон Шеин](https://events.yandex.ru/lib/people/3421690/)
 - [Роман Шамин](https://github.com/romashamin?tab=repositories)
 - [Design Prosmotr](http://designprosmotr.ru/)
-- [О чём смеются верстальщики](https://www.youtube.com/watch?v=lW4uzJp6uIg)
+- [О чём смеются верстальщики](https://youtu.be/lW4uzJp6uIg)
 - [Школа дизайна Яндекса](https://www.youtube.com/playlist?list=PLLkvpHo_HuBMU_fM4v-VS5VbUi9QuKyDR)
 
 ## Инструменты для дизайнеров

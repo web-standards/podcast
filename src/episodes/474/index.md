@@ -7,7 +7,7 @@
 
 - [Polyfilling CSS with CSS Parser Extensions](https://www.bram.us/2025/05/04/css-parser-extensions-pitch/)
 - [The Extensible Web Manifesto](https://extensiblewebmanifesto.org/)
-- [Polyfilling CSS with CSS Parser Extensions \[BlinkOn 20\]](https://www.youtube.com/watch?v=njdiu83do0M)
+- [Polyfilling CSS with CSS Parser Extensions \[BlinkOn 20\]](https://youtu.be/njdiu83do0M)
 - [Houdini Re-Revisted](https://bkardell.com/blog/HoudiniReRe.html)
 - [Rust-cssparser](https://github.com/servo/rust-cssparser)
 

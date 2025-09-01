@@ -18,10 +18,10 @@
 - [420-й выпуск](https://web-standards.ru/podcast/420/)
 - [Stack the deck with Figma Slides](https://www.figma.com/blog/figma-slides/)
 - [Config 2024](https://www.youtube.com/playlist?list=PLXDU_eVOJTx402DljIPagaDKLibF-qfF0)
-- [Drive design system adoption with Code Connect](https://www.youtube.com/watch?v=vehlyW3PiUg)
-- [Designing for code: creative tools on hard mode](https://www.youtube.com/watch?v=tDvz-bgqC0Q)
-- [How to build for, and with, Gen Z](https://www.youtube.com/watch?v=-CYpixuRCgU)
-- [Walking the path: prototyping game UI with focus-based navigation](https://www.youtube.com/watch?v=ifrI17KwSPs)
+- [Drive design system adoption with Code Connect](https://youtu.be/vehlyW3PiUg)
+- [Designing for code: creative tools on hard mode](https://youtu.be/tDvz-bgqC0Q)
+- [How to build for, and with, Gen Z](https://youtu.be/-CYpixuRCgU)
+- [Walking the path: prototyping game UI with focus-based navigation](https://youtu.be/ifrI17KwSPs)
 
 ## ESM-гармония
 

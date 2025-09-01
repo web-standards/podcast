@@ -12,9 +12,9 @@
 
 ## CSS Podcast
 
-- [Why isn’t z-index working?](https://www.youtube.com/watch?v=QGd1xdxkU58)
-- [Why isn’t the margin applying?](https://www.youtube.com/watch?v=YdggbwLEuFg)
-- [Why is it overflowing?](https://www.youtube.com/watch?v=e7PLvudkTE0)
+- [Why isn’t z-index working?](https://youtu.be/QGd1xdxkU58)
+- [Why isn’t the margin applying?](https://youtu.be/YdggbwLEuFg)
+- [Why is it overflowing?](https://youtu.be/e7PLvudkTE0)
 - [The CSS Podcast](https://thecsspodcast.libsyn.com/)
 
 ## Chrome DevTools

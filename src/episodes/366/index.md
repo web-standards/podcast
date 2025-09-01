@@ -39,6 +39,6 @@
 
 - [Придумал вариант применения @layer](https://github.com/calmosowl/layers-test)
 - [CSS and JavaScript as first-class citizens in Eleventy](https://pepelsbey.dev/articles/eleventy-css-js/)
-- [Свежий взгляд на Gulp: функции и ES-модули](https://www.youtube.com/watch?v=fgJmCevEtL4)
+- [Свежий взгляд на Gulp: функции и ES-модули](https://youtu.be/fgJmCevEtL4)
 
 [podcast@web-standards.ru](mailto:podcast@web-standards.ru)
