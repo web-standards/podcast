@@ -1,0 +1,24 @@
+title: Interop 2026, WebMCP, Rspack 1.5 и Rust кругом, неточные таймеры и 17 лет Chrome
+
+date: 2025-09-08T09:00
+
+hosts:
+  - Никита Дубко
+  - Алексей Симоненко
+  - Андрей Мелихов
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:22
+    title: 'Заявки на Interop 2026'
+  - time: 00:15:20
+    title: 'API для агентов WebMCP'
+  - time: 00:37:44
+    title: 'Rspack 1.5 и Rust кругом'
+  - time: 00:55:23
+    title: 'Неточные таймеры'
+  - time: 01:14:23
+    title: 'Chrome 17 лет'
+
+duration: 01:51:36
