@@ -1,0 +1,26 @@
+title: Новинки Chrome 140, масштабирование текста, двойная обводка фокуса, Temporal и DevTools MCP
+
+date: 2025-09-29T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Вадим Макеев
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:22
+    title: 'Новинки Chrome 140'
+  - time: 00:31:23
+    title: 'Масштабирование текста'
+  - time: 00:45:58
+    title: 'Temporal в Chrome'
+  - time: 00:57:07
+    title: 'Двойная обводка фокуса'
+  - time: 01:11:28
+    title: 'Chrome DevTools MCP'
+  - time: 01:25:45
+    title: 'Ответы на вопросы'
+
+duration: 01:40:34
