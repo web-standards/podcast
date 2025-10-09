@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/CYZR2JHL8ew)
+
 ## Где нас слушать
 
 - [Deezer](https://www.deezer.com/en/show/1001066322)

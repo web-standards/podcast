@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/1ZubX4B9-uE)
+
 ## CSS для поиска по странице
 
 - [Intent to Prototype: Find-in-page highlight pseudos](https://groups.google.com/a/chromium.org/g/blink-dev/c/5FS_4mVQBLc)

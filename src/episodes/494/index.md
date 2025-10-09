@@ -1,4 +1,6 @@
-[Лайв на Ютубе](https://youtu.be/A7JRxy7Tz78)
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/A7JRxy7Tz78)
 
 ## Новинки Chrome 140
 

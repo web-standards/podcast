@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/-rfBJqMPQJc)
+
 ## Safari TP 201
 
 - [Safari Technology Preview 201](https://webkit.org/blog/15790/release-notes-for-safari-technology-preview-201/)

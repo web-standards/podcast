@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/Ul_6R5TV4z0)
+
 ## Опять switch в Safari
 
 - [An HTML Switch Control](https://webkit.org/blog/15054/an-html-switch-control/)

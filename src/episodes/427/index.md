@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/aOJmh0mtfXo)
+
 ## Chrome 126
 
 - [New in Chrome 126](https://developer.chrome.com/blog/new-in-chrome-126)

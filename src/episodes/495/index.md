@@ -1,4 +1,6 @@
-[Лайв на Ютубе](https://youtu.be/EGpOR-Gqp9Y)
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/EGpOR-Gqp9Y)
 
 ## State of JS и лого W3C
 

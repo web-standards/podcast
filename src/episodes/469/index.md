@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/6aNZpiLiIxk)
+
 ## Firefox 137
 
 - [Firefox 137](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/137)

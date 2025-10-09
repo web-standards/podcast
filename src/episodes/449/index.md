@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/bWepTvELdlY)
+
 ## Chrome 131
 
 - [Chrome 131 Release notes](https://developer.chrome.com/release-notes/131)

@@ -1,4 +1,6 @@
-[Живая запись эпизода](https://youtu.be/-QyzkZ0sHRA)
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/-QyzkZ0sHRA)
 
 ## Safari 17.2
 

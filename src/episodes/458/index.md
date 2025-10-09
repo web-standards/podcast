@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/oMOmFZmS3B0)
+
 ## Chrome 132
 
 - [Chrome 132](https://developer.chrome.com/release-notes/132)

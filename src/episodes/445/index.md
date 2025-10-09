@@ -1,4 +1,6 @@
-[Лайв на Ютубе](https://youtu.be/RlT2Np5DJ9M)
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/RlT2Np5DJ9M)
 
 ## Результаты State of CSS
 

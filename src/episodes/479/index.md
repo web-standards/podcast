@@ -1,4 +1,6 @@
-[Лайв на Ютубе](https://youtu.be/yQncKawb13s)
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/yQncKawb13s)
 
 ## Бета Safari 26
 

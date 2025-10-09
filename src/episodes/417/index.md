@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/x5jJDsda_9o)
+
 ## Бета Safari 17.5
 
 - [Safari 17.5 Beta Release Notes](https://developer.apple.com/documentation/safari-release-notes/safari-17_5-release-notes)

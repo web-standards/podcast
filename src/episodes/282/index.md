@@ -1,4 +1,6 @@
-[Видеоверсия выпуска](https://youtu.be/F25gTnQ8PcM)
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/F25gTnQ8PcM)
 
 ## Компания Rome
 

@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/FK1IE4IhGxw)
+
 ## Дырявый Arc
 
 - [Arc: Incident Report](https://arc.net/blog/CVE-2024-45489-incident-response)

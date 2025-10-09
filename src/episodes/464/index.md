@@ -1,3 +1,7 @@
+## Смотрите нас
+
+- [Лайв на Ютубе](https://youtu.be/TyQ_Znktag0)
+
 ## Speculation Rules
 
 - [How Google Search uses speculation rules](https://developer.chrome.com/blog/search-speculation-rules)
