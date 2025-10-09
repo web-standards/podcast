@@ -14,7 +14,7 @@ export default {
 						<title>${episode.fileSlug}. ${episode.data.title}</title>
 						<link>${data.meta.url}${episode.fileSlug}/</link>
 						<pubDate>${episode.date.toUTCString()}</pubDate>
-						<description><![CDATA[<p>Простой способ сказать «спасибо» и попасть в закрытый чат:</p><p>• <a href="https://boosty.to/webstandards_ru">Бусти</a><br>• <a href="https://www.patreon.com/webstandards_ru">Патреон</a></p><p>Ведущие: ${hosts}</p>${
+						<description><![CDATA[<p>Простой способ сказать нам «спасибо» и попасть в закрытый чат:</p><p>• <a href="https://boosty.to/webstandards_ru">Бусти</a><br>• <a href="https://www.patreon.com/webstandards_ru">Патреон</a></p><p>Ведущие: ${hosts}</p>${
 							episode.data.chapters ? `<p>Темы</p><p>${
 								episode.data.chapters
 									.map(chapter => `${chapter.time} ${chapter.title}<br>`)
