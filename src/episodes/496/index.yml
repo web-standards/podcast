@@ -1,0 +1,32 @@
+title: Chrome 141, гриды, Node.js, if() и цвета в CSS, Prettier, агенты в Playwright, вайб-инжиниринг
+
+date: 2025-10-13T09:00
+
+hosts:
+  - Андрей Мелихов
+  - Алексей Симоненко
+  - Полина Гуртовая
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:38
+    title: 'Новинки Chrome 141'
+  - time: 00:23:11
+    title: 'Гриды как таблицы'
+  - time: 00:30:40
+    title: 'Всё уже есть в Node.js'
+  - time: 00:45:23
+    title: 'Современные цвета в CSS'
+  - time: 00:53:15
+    title: 'Какой if() в CSS нам нужен'
+  - time: 01:01:26
+    title: 'История Prettier'
+  - time: 01:25:50
+    title: 'Агенты в Playwright'
+  - time: 01:34:23
+    title: 'Вайб-инжиниринг'
+  - time: 01:51:56
+    title: 'Ответы на вопросы'
+
+duration: 01:56:24
