@@ -1,0 +1,27 @@
+title: Privacy Sandbox, React Compiler, интерактивные элементы, import или fetch, ChatGPT Atlas и ARIA
+
+date: 2025-10-27T09:00
+
+hosts:
+  - Андрей Мелихов
+  - Полина Гуртовая
+  - Вадим Макеев
+  - Алексей Симоненко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:00:59
+    title: 'Privacy Sandbox всё'
+  - time: 00:21:06
+    title: 'React Compiler'
+  - time: 00:39:10
+    title: 'Интерактивные элементы'
+  - time: 00:57:41
+    title: 'JSON: import или fetch'
+  - time: 01:13:29
+    title: 'ChatGPT Atlas и ARIA'
+  - time: 01:34:24
+    title: 'Ответы на вопросы'
+
+duration: 01:37:24
