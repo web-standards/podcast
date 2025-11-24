@@ -1,12 +1,15 @@
 N. TITLE
 
-— HOST
+— HOST_FULL
+— HOST_FULL
+— HOST_FULL
 
 00:00:00 CHAPTER
 
-Веб-стандарты
+Веб-стандарты: HOST_FIRST, HOST_FIRST, HOST_FIRST.
 
-Выпуск N. HOST про TITLE.
+Выпуск №N. HOST_FULL, HOST_FULL, HOST_FULL про TITLE.
 
-Слушайте на Ютубе URL
+Лайв на Ютубе URL
+Слушайте на Ютубе TODO
 Ссылки на сайте https://web-standards.ru/podcast/N/
