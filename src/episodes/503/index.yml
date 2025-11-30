@@ -1,0 +1,21 @@
+title: Анимация width/height в CSS, как внедряли TS в Node.js, Shai-Hulud 2 в npm, вариативные шрифты
+
+date: 2025-12-01T09:00
+
+hosts:
+  - Никита Дубко
+  - Алексей Симоненко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:38
+    title: 'Анимация width/height в CSS'
+  - time: 00:16:32
+    title: 'Как писали поддержку TS в Node.js'
+  - time: 00:37:42
+    title: 'Атака Shai-Hulud 2.0 в npm'
+  - time: 01:07:50
+    title: 'Зачем вариативные шрифты'
+
+duration: 01:28:05
