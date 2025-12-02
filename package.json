@@ -7,7 +7,7 @@
 		"build": "eleventy",
 		"mp3": "cd src/mp3 && rsync --progress --archive --compress --delete --delete-excluded --exclude .DS_Store . wst@web-standards.ru:/var/www/web-standards.ru/podcast/episodes/",
 		"cover": "cd src && rsync --archive --compress cover.png wst@web-standards.ru:/var/www/web-standards.ru/podcast/",
-		"feed": "cd dist && rsync --archive --compress index.xml wst@web-standards.ru:/var/www/web-standards.ru/podcast/feed/",
+		"feed": "cd dist && rsync --archive --compress index.xml latest.xml wst@web-standards.ru:/var/www/web-standards.ru/podcast/feed/",
 		"deploy": "npm run mp3 && npm run cover && npm run feed",
 		"new": "node scripts/new.js",
 		"file-size": "node scripts/file-size.js",

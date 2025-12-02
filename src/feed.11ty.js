@@ -1,12 +1,27 @@
+const feedConfigs = [
+	{ permalink: 'index.xml', limit: null },
+	{ permalink: 'latest.xml', limit: 25 },
+];
+
 export default {
 	data: {
-		permalink: 'index.xml',
+		pagination: {
+			data: 'feedConfigs',
+			size: 1,
+			alias: 'feedConfig',
+		},
+		feedConfigs,
+		permalink: data => data.feedConfig.permalink,
 	},
 
-	async getEpisodes(data) {
-		const episode = data.collections.episode;
+	async getEpisodes(data, limit) {
+		let episodes = data.collections.episode;
 
-		const result = await Promise.all(episode.map(
+		if (limit) {
+			episodes = episodes.slice(-limit);
+		}
+
+		const result = await Promise.all(episodes.map(
 			async episode => {
 				const hosts = episode.data.hosts.join(', ');
 				return `
@@ -54,6 +69,8 @@ export default {
 	},
 
 	async render(data) {
+		const limit = data.feedConfig.limit;
+
 		return `
 			<?xml version="1.0" encoding="utf-8"?>
 			<rss
@@ -93,7 +110,7 @@ export default {
 							.join('')
 					}
 
-					${await this.getEpisodes(data)}
+					${await this.getEpisodes(data, limit)}
 				</channel>
 			</rss>
 		`;
