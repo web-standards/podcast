@@ -1,0 +1,30 @@
+title: Адвенты, JS 30 лет, Chrome 143, TypeScript 7, npm и Server Components, Tailwind, CSS-in-JS
+
+date: 2025-12-08T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Полина Гуртовая
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:07
+    title: 'Адвент-календари'
+  - time: 00:08:41
+    title: 'JavaScript 30 лет'
+  - time: 00:20:15
+    title: 'Новинки Chrome 143'
+  - time: 00:34:40
+    title: 'Планы на TypeScript 7'
+  - time: 00:50:35
+    title: 'Безопасность npm'
+  - time: 01:04:36
+    title: 'Опасные Server Components'
+  - time: 01:12:09
+    title: 'Снова про Tailwind'
+  - time: 01:32:00
+    title: 'Предательство CSS-in-JS'
+
+duration: 01:53:32
