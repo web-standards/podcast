@@ -5,14 +5,15 @@
 	"scripts": {
 		"test": "npx editorconfig-checker && npx eslint",
 		"build": "eleventy",
-		"mp3": "cd src/mp3 && rsync --progress --archive --compress --delete --delete-excluded --exclude .DS_Store . wst@web-standards.ru:/var/www/web-standards.ru/podcast/episodes/",
-		"cover": "cd src && rsync --archive --compress cover.png wst@web-standards.ru:/var/www/web-standards.ru/podcast/",
-		"feed": "cd dist && rsync --archive --compress index.xml latest.xml wst@web-standards.ru:/var/www/web-standards.ru/podcast/feed/",
-		"deploy": "npm run mp3 && npm run cover && npm run feed",
+		"deploy:mp3": "cd src/mp3 && rsync --progress --archive --compress --delete --delete-excluded --exclude .DS_Store . wst@web-standards.ru:/var/www/web-standards.ru/podcast/episodes/",
+		"deploy:cover": "cd src && rsync --archive --compress cover.png wst@web-standards.ru:/var/www/web-standards.ru/podcast/",
+		"deploy:feed": "cd dist && rsync --archive --compress index.xml latest.xml wst@web-standards.ru:/var/www/web-standards.ru/podcast/feed/",
+		"deploy": "npm run deploy:mp3 && npm run deploy:cover && npm run deploy:feed",
 		"new": "node scripts/new.js",
 		"file-size": "node scripts/file-size.js",
 		"prepare": "husky || true",
-		"info": "node scripts/info.js"
+		"wav": "node scripts/wav.js",
+		"mp3": "node scripts/mp3.js"
 	},
 	"engines": {
 		"node": "22"
@@ -28,6 +29,7 @@
 		"html-minifier-terser": "^7.2.0",
 		"husky": "^9.1.7",
 		"js-yaml": "^4.1.0",
-		"minify-xml": "^4.5.2"
+		"minify-xml": "^4.5.2",
+		"node-id3": "^0.2.9"
 	}
 }
