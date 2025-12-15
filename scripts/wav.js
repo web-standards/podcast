@@ -20,7 +20,18 @@ function buildMp3(episodeNumber, inputFolder, outputFolder) {
 	]);
 }
 
-function buildChapters(inputFile) {
+function getMediaInfo(inputFile) {
+	return runCommandSync('ffprobe', [
+		'-i', inputFile,
+		'-loglevel', '0',
+		'-hide_banner',
+		'-print_format', 'json',
+		'-show_chapters',
+		'-show_format',
+	]);
+}
+
+function getChapters(inputFile) {
 	return runCommandSync('ffprobe', [
 		'-i', inputFile,
 		'-loglevel', '0',
@@ -29,6 +40,16 @@ function buildChapters(inputFile) {
 		'-show_chapters',
 		'-pretty',
 	]);
+}
+
+function formatDuration(seconds) {
+	return new Date(seconds * 1000).toISOString().slice(11, 19);
+}
+
+function updateYmlDuration(ymlPath, duration) {
+	const content = fs.readFileSync(ymlPath, 'utf-8');
+	const updated = content.replace(/^duration: .*$/m, `duration: ${duration}`);
+	fs.writeFileSync(ymlPath, updated);
 }
 
 function parseTime(str) {
@@ -70,6 +91,7 @@ const mp3Dir = path.join('src', 'mp3');
 const mp3Path = path.join(mp3Dir, `${episode}.mp3`);
 const episodeDir = path.join('src', 'episodes', episode);
 const indexPath = path.join(episodeDir, 'index.txt');
+const ymlPath = path.join(episodeDir, 'index.yml');
 
 if (!fs.existsSync(wavPath)) {
 	console.error(`Файл не найден: ${wavPath}`);
@@ -86,15 +108,20 @@ fs.mkdirSync(mp3Dir, { recursive: true });
 buildMp3(episode, path.join('src', 'wav'), mp3Dir);
 console.log(`Создан: ${mp3Path}`);
 
-const json = buildChapters(mp3Path);
-const parsedJson = JSON.parse(json);
+const mediaInfo = JSON.parse(getMediaInfo(mp3Path));
+const chaptersInfo = JSON.parse(getChapters(mp3Path));
 
-if (!parsedJson.chapters) {
+if (!chaptersInfo.chapters) {
 	console.error('В файле нет глав');
 	process.exit(1);
 }
 
 fs.mkdirSync(episodeDir, { recursive: true });
 
-writeIndexFile(templatePath, episode, parsedJson.chapters, indexPath);
+writeIndexFile(templatePath, episode, chaptersInfo.chapters, indexPath);
 console.log(`Создан: ${indexPath}`);
+
+const durationSeconds = parseFloat(mediaInfo.format.duration);
+const duration = formatDuration(durationSeconds);
+updateYmlDuration(ymlPath, duration);
+console.log(`Обновлён: ${ymlPath}`);

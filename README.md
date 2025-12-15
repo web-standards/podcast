@@ -1,9 +1,6 @@
 # Подкаст «Веб-стандарты»
 
-[![Статус тестов EditorConfig](https://github.com/web-standards/podcast/workflows/editorconfig/badge.svg)](https://github.com/web-standards/podcast/actions/workflows/editorconfig.yml)
-[![Статус тестов ESLint](https://github.com/web-standards/podcast/workflows/eslint/badge.svg)](https://github.com/web-standards/podcast/actions/workflows/eslint.yml)
-
-Новости фронтенда в еженедельном подкасте сообщества «[Веб-стандарты](https://web-standards.ru/)»
+Новости фронтенда в еженедельном подкасте сообщества «[Веб-стандарты](https://web-standards.ru/)».
 
 ## Постоянные ведущие
 

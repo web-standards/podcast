@@ -47,17 +47,14 @@ if (!fs.existsSync(templateYmlPath)) {
 	process.exit(1);
 }
 
-let readmeContent = fs.readFileSync(readmePath, 'utf-8');
-const prevEpisode = Number(
-	readmeContent.match(/\[(\d+)\]: src\/episodes\/(\d+)\/index.md/)[1]
-);
+const episode = process.argv[2];
 
-if (!prevEpisode) {
-	console.error('Не получилось достать номер прошлого эпизода из README.md.');
+if (!episode) {
+	console.error('Укажи номер эпизода: npm run new N');
 	process.exit(1);
 }
 
-const episode = prevEpisode + 1;
+let readmeContent = fs.readFileSync(readmePath, 'utf-8');
 const episodeDir = path.join('src', 'episodes', String(episode));
 const episodeMdPath = path.join(episodeDir, 'index.md');
 const episodeYmlPath = path.join(episodeDir, 'index.yml');
@@ -70,16 +67,6 @@ if (!readmeContent.includes(`| ${episode}     |`)) {
 <details>`
 	);
 }
-
-readmeContent = readmeContent
-	.replace(
-		episodeLinkString(episode - 1),
-		`${episodeLinkString(episode)}\n${episodeLinkString(episode - 1)}`
-	)
-	.replace(`| ${episode}     |`, `| [${episode}][] |`);
-
-fs.writeFileSync(readmePath, readmeContent);
-console.log(`Обновлён: ${readmePath}`);
 
 fs.mkdirSync(episodeDir, { recursive: true });
 
@@ -95,8 +82,13 @@ const episodeYmlContent = templateYmlContent.replace(
 fs.writeFileSync(episodeYmlPath, episodeYmlContent);
 console.log(`Создан: ${episodeYmlPath}`);
 
-console.info(`
-Теперь заполни:
-- ${episodeYmlPath}
-- ${episodeMdPath}
-`);
+const prevEpisode = Number(episode) - 1;
+readmeContent = readmeContent
+	.replace(
+		episodeLinkString(prevEpisode),
+		`${episodeLinkString(episode)}\n${episodeLinkString(prevEpisode)}`
+	)
+	.replace(`| ${episode}     |`, `| [${episode}][] |`);
+
+fs.writeFileSync(readmePath, readmeContent);
+console.log(`\nОбновлён: ${readmePath}`);

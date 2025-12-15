@@ -1,9 +1,5 @@
 N. TITLE
 
-— HOST
-— HOST
-— HOST
-
 CHAPTERS
 
 Веб-стандарты: HOSTS_SHORT.
