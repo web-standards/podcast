@@ -20,15 +20,15 @@
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^3.1.2",
-		"@eslint/js": "^9.38.0",
-		"@eslint/markdown": "^7.5.0",
+		"@eslint/js": "^9.39.2",
+		"@eslint/markdown": "^7.5.1",
 		"editorconfig-checker": "^6.1.1",
-		"eslint": "^9.38.0",
+		"eslint": "^9.39.2",
 		"get-mp3-duration": "^1.0.0",
-		"globals": "^16.4.0",
+		"globals": "^16.5.0",
 		"html-minifier-terser": "^7.2.0",
 		"husky": "^9.1.7",
-		"js-yaml": "^4.1.0",
+		"js-yaml": "^4.1.1",
 		"minify-xml": "^4.5.2",
 		"node-id3": "^0.2.9"
 	}
