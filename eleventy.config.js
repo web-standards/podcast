@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import yaml from 'js-yaml';
 import htmlmin from 'html-minifier-terser';
 import markdownIt from 'markdown-it';
-import { stripHeadings, stripLists } from './scripts/strip-tags.js';
+import { stripHeadings, stripLists } from './scripts/feed/strip-tags.js';
 import minifyXml from 'minify-xml';
 
 const markdown = markdownIt({ html: true });

@@ -10,7 +10,7 @@
 		"deploy:feed": "cd dist && rsync --archive --compress index.xml latest.xml wst@web-standards.ru:/var/www/web-standards.ru/podcast/feed/",
 		"deploy": "npm run deploy:mp3 && npm run deploy:cover && npm run deploy:feed",
 		"new": "node scripts/new.js",
-		"file-size": "node scripts/file-size.js",
+		"file-size": "node scripts/feed/file-size.js",
 		"prepare": "husky || true",
 		"wav": "node scripts/wav.js",
 		"mp3": "node scripts/mp3.js"

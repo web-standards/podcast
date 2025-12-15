@@ -31,58 +31,70 @@ function buildChapters(inputFile) {
 	]);
 }
 
-function writeChaptersIntoFile(chapters, filePath) {
-	const fileStream = fs.createWriteStream(filePath);
+function parseTime(str) {
+	return `0${str}`.split('.')[0];
+}
 
-	function parseTime(str) {
-		return `0${str}`.split('.')[0];
-	}
-
-	const newArr = chapters.map(chapter => {
+function formatChapters(chapters) {
+	return chapters.map(chapter => {
 		const startTime = parseTime(chapter.start_time);
 		const title = chapter.tags.title;
 		return `${startTime} ${title}`;
-	});
-
-	newArr.forEach(line => {
-		fileStream.write(line);
-		fileStream.write('\n');
-	});
-
-	fileStream.close();
+	}).join('\n');
 }
 
-const episodeNumber = process.argv[2];
+function generateIndexFromTemplate(templatePath, episode, chapters) {
+	const template = fs.readFileSync(templatePath, 'utf-8');
+	const chaptersText = formatChapters(chapters);
 
-if (!episodeNumber) {
-	console.log('No input number');
+	return template
+		.replace(/\bN\b/g, episode)
+		.replace(/^CHAPTERS$/m, chaptersText);
+}
+
+function writeIndexFile(templatePath, episode, chapters, outputPath) {
+	const content = generateIndexFromTemplate(templatePath, episode, chapters);
+	fs.writeFileSync(outputPath, content);
+}
+
+const episode = process.argv[2];
+
+if (!episode) {
+	console.error('Укажи номер эпизода: npm run wav N');
 	process.exit(1);
 }
 
-const baseDirectory = 'src';
+const wavPath = path.join('src', 'wav', `${episode}.wav`);
+const templatePath = path.join('src', 'templates', 'index.txt');
+const mp3Dir = path.join('src', 'mp3');
+const mp3Path = path.join(mp3Dir, `${episode}.mp3`);
+const episodeDir = path.join('src', 'episodes', episode);
+const indexPath = path.join(episodeDir, 'index.txt');
 
-fs.mkdirSync(
-	path.join(baseDirectory, 'mp3'),
-	{ recursive: true }
-);
+if (!fs.existsSync(wavPath)) {
+	console.error(`Файл не найден: ${wavPath}`);
+	process.exit(1);
+}
 
-buildMp3(episodeNumber, path.join(baseDirectory, 'wav'), path.join(baseDirectory, 'mp3'));
+if (!fs.existsSync(templatePath)) {
+	console.error(`Файл не найден: ${templatePath}`);
+	process.exit(1);
+}
 
-const json = buildChapters(path.join(baseDirectory, 'mp3', `${episodeNumber}.mp3`));
+fs.mkdirSync(mp3Dir, { recursive: true });
 
+buildMp3(episode, path.join('src', 'wav'), mp3Dir);
+console.log(`Создан: ${mp3Path}`);
+
+const json = buildChapters(mp3Path);
 const parsedJson = JSON.parse(json);
 
 if (!parsedJson.chapters) {
-	console.log('No chapters in input file');
+	console.error('В файле нет глав');
 	process.exit(1);
 }
 
-fs.mkdirSync(
-	path.join(baseDirectory, 'episodes', episodeNumber),
-	{ recursive: true }
-);
+fs.mkdirSync(episodeDir, { recursive: true });
 
-writeChaptersIntoFile(
-	parsedJson.chapters,
-	path.join(baseDirectory, 'episodes', episodeNumber, 'index.txt')
-);
+writeIndexFile(templatePath, episode, parsedJson.chapters, indexPath);
+console.log(`Создан: ${indexPath}`);
