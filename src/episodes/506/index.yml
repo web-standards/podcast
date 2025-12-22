@@ -1,0 +1,24 @@
+title: State of HTML, Grid Lanes вместо Masonry, Cloudflare 2025, View Transition для диалогов
+
+date: 2025-12-22T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Вадим Макеев
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:15
+    title: 'Результаты State of HTML'
+  - time: 01:00:00
+    title: 'Grid Lanes вместо Masonry'
+  - time: 01:17:00
+    title: 'Интернет глазами Cloudflare'
+  - time: 01:39:48
+    title: 'View Transition для диалогов'
+  - time: 01:52:42
+    title: 'Ответы на вопросы'
+
+duration: 02:06:03
