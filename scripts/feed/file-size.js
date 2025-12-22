@@ -27,7 +27,7 @@ try {
 			continue;
 		}
 
-		const episodeFolder = path.join(item.path, item.name);
+		const episodeFolder = path.join(item.parentPath, item.name);
 		const dataFilePath = path.join(episodeFolder, 'index.json');
 
 		if (isFileExist(dataFilePath)) {
