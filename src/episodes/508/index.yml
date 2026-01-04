@@ -1,0 +1,23 @@
+title: Chrome DevTools MCP, LLM для перформанса, RSC explorer, программирование на типах, 30 лет веба
+
+date: 2026-01-05T09:00
+
+hosts:
+  - Полина Гуртовая
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:30
+    title: 'Chrome DevTools MCP в агенте'
+  - time: 00:12:47
+    title: 'LLM для отладки перформанса'
+  - time: 00:34:12
+    title: 'Инспектор RSC'
+  - time: 00:47:36
+    title: 'Программирование на типах'
+  - time: 01:02:12
+    title: '30 лет веба'
+
+duration: 02:09:00
