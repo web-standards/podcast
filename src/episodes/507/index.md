@@ -22,11 +22,17 @@
 - [Книга «Прощание с иллюзиями» Познера](https://oz.by/books/more101329222.html)
 - [Книга «Вдохновлённые. Всё, что нужно знать продакт-менеджеру»](https://oz.by/books/more101252360.html)
 - [Серия книг «Божественные города»](https://books.yandex.ru/series/Qo7FXkbo)
+- [Виктор Пелевин «A Sinistra»](https://ru.wikipedia.org/wiki/A_Sinistra)
+- [Котаро Исака «Поезд убийц»](https://en.wikipedia.org/wiki/Maria_Beetle)
+- [Мариам Петросян «Дом, в котором…»](https://ru.wikipedia.org/wiki/Дом,_в_котором…)
 
 ## Кино и сериалы
 
 - [Если бы персонажи не тупили](https://www.youtube.com/@krol-krolb)
 - [Сериал «Пантеон»](https://www.kinopoisk.ru/series/1397749/)
+- [Mars Express (2023)](https://www.imdb.com/title/tt26915336/)
+- [Белое пластиковое небо (Müanyag égbolt, 2023)](https://imdb.com/title/tt8096846/)
+- [Фильм «Быстрее пули» (Bullet Train, 2022)](https://imdb.com/title/tt12593682/)
 
 ## Животные и белки
 
