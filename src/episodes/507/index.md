@@ -31,8 +31,8 @@
 - [Если бы персонажи не тупили](https://www.youtube.com/@krol-krolb)
 - [Сериал «Пантеон»](https://www.kinopoisk.ru/series/1397749/)
 - [Mars Express (2023)](https://www.imdb.com/title/tt26915336/)
-- [Белое пластиковое небо (Müanyag égbolt, 2023)](https://m.imdb.com/title/tt8096846/)
-- [Фильм «Быстрее пули» (Bullet Train, 2022)](https://m.imdb.com/title/tt12593682/)
+- [Белое пластиковое небо (Müanyag égbolt, 2023)](https://imdb.com/title/tt8096846/)
+- [Фильм «Быстрее пули» (Bullet Train, 2022)](https://imdb.com/title/tt12593682/)
 
 ## Животные и белки
 
