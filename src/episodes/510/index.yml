@@ -1,0 +1,29 @@
+title: Firefox 147, Chrome 144, geolocation, GIF и JPEG XL, 100vw и прокрутка, итераторы и массивы
+
+date: 2026-01-19T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Никита Дубко
+  - Вадим Макеев
+  - Полина Гуртовая
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:07
+    title: 'Нам 10 лет'
+  - time: 00:03:17
+    title: 'Firefox 147'
+  - time: 00:23:02
+    title: 'Chrome 144'
+  - time: 00:56:53
+    title: 'Элемент geolocation'
+  - time: 01:10:39
+    title: 'Гифки и JPEG XL'
+  - time: 01:25:03
+    title: '100vw и прокрутка'
+  - time: 01:37:39
+    title: 'Итераторы и массивы'
+
+duration: 01:53:40
