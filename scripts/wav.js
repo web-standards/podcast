@@ -10,6 +10,7 @@ function runCommandSync(bin, args) {
 
 function buildMp3(episodeNumber, inputFolder, outputFolder) {
 	return runCommandSync('ffmpeg', [
+		'-y',
 		'-i', path.join(inputFolder, `${episodeNumber}.wav`),
 		'-nostats',
 		'-loglevel', '0',
