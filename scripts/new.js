@@ -72,7 +72,6 @@ fs.mkdirSync(episodeDir, { recursive: true });
 
 const templateMdContent = fs.readFileSync(templateMdPath, 'utf-8');
 fs.writeFileSync(episodeMdPath, templateMdContent);
-console.log(`Создан: ${episodeMdPath}`);
 
 const templateYmlContent = fs.readFileSync(templateYmlPath, 'utf-8');
 const episodeYmlContent = templateYmlContent.replace(
@@ -80,7 +79,6 @@ const episodeYmlContent = templateYmlContent.replace(
 	`date: ${getNextMonday()}`
 );
 fs.writeFileSync(episodeYmlPath, episodeYmlContent);
-console.log(`Создан: ${episodeYmlPath}`);
 
 const prevEpisode = Number(episode) - 1;
 readmeContent = readmeContent
@@ -91,4 +89,9 @@ readmeContent = readmeContent
 	.replace(`| ${episode}     |`, `| [${episode}][] |`);
 
 fs.writeFileSync(readmePath, readmeContent);
-console.log(`\nОбновлён: ${readmePath}`);
+
+console.log(`✓ Созданы новые файлы:\n`);
+console.log(episodeMdPath);
+console.log(episodeYmlPath);
+console.log(`\n✓ Обновлён:\n`);
+console.log(readmePath);

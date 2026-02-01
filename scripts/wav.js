@@ -107,7 +107,6 @@ if (!fs.existsSync(templatePath)) {
 fs.mkdirSync(mp3Dir, { recursive: true });
 
 buildMp3(episode, path.join('src', 'wav'), mp3Dir);
-console.log(`Создан: ${mp3Path}`);
 
 const mediaInfo = JSON.parse(getMediaInfo(mp3Path));
 const chaptersInfo = JSON.parse(getChapters(mp3Path));
@@ -120,9 +119,14 @@ if (!chaptersInfo.chapters) {
 fs.mkdirSync(episodeDir, { recursive: true });
 
 writeIndexFile(templatePath, episode, chaptersInfo.chapters, indexPath);
-console.log(`Создан: ${indexPath}`);
 
 const durationSeconds = parseFloat(mediaInfo.format.duration);
 const duration = formatDuration(durationSeconds);
 updateYmlDuration(ymlPath, duration);
-console.log(`Обновлён: ${ymlPath}`);
+
+console.log(`✓ Создан:\n`);
+console.log(mp3Path);
+console.log(`\n✓ Создан:\n`);
+console.log(indexPath);
+console.log(`\n✓ Обновлён:\n`);
+console.log(ymlPath);

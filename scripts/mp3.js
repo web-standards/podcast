@@ -99,7 +99,8 @@ if (fs.existsSync(coverPath)) {
 const success = NodeID3.write(tags, mp3Path);
 
 if (success === true) {
-	console.log(`Теги обновлены: ${mp3Path}`);
+	console.log(`✓ Теги обновлены:\n`);
+	console.log(mp3Path);
 } else {
 	console.error('Ошибка при записи тегов:', success);
 	process.exit(1);
