@@ -4,6 +4,8 @@ date: 2019-09-25T09:00
 
 hosts:
   - Vadim Makeev
+
+guests:
   - Eric Meyer
   - Max Böck
 

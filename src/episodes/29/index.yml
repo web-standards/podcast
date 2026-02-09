@@ -3,9 +3,11 @@ title: Похороны Flash, Samsung Internet, книга «Секреты CSS
 date: 2016-08-15T09:00
 
 hosts:
-  - Роман Комаров
   - Вадим Макеев
   - Алексей Симоненко
+
+guests:
+  - Роман Комаров
 
 chapters:
   - time: 00:00:00

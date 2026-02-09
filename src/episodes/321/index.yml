@@ -3,10 +3,12 @@ title: Safari TP, диалог в WebKit, Interop 2022, popup, SQL+CSS, жало
 date: 2022-02-15T09:00
 
 hosts:
-  - Полина Немчак
   - Вадим Макеев
   - Никита Дубко
   - Андрей Мелихов
+
+guests:
+  - Полина Немчак
 
 chapters:
   - time: 00:00:00

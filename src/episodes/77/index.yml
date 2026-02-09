@@ -3,9 +3,11 @@ title: CSS Minsk JS, DevTools, Storage API, DRM и W3C, чистка CSS, API, X
 date: 2017-07-24T09:00
 
 hosts:
-  - Павел Ловцевич
   - Вадим Макеев
   - Алексей Симоненко
+
+guests:
+  - Павел Ловцевич
 
 chapters:
   - time: 00:00:00

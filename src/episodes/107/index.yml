@@ -3,9 +3,11 @@ title: CSS на JS в Chrome, HTTPS и SEO, сервис-воркеры в Safar
 date: 2018-02-12T09:00
 
 hosts:
-  - Юрий Федоренко
   - Вадим Макеев
   - Алексей Симоненко
+
+guests:
+  - Юрий Федоренко
 
 chapters:
   - time: 00:00:00

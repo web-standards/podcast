@@ -4,6 +4,8 @@ date: 2019-10-22T09:00
 
 hosts:
   - Vadim Makeev
+
+guests:
   - Andreas Bovens
 
 chapters:

@@ -3,9 +3,11 @@ title: Новинки Chrome, Base64, WebKit, ES-модули, Node.js и Webpac
 date: 2017-02-21T09:00
 
 hosts:
-  - Сергей Господарец
   - Вадим Макеев
   - Алексей Симоненко
+
+guests:
+  - Сергей Господарец
 
 chapters:
   - time: 00:00:00
