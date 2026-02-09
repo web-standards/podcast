@@ -2,31 +2,25 @@
 	<defs>
 		<style>
 			:root {
-				--color-red: #ffc5d5;
-				--color-orange: #ffcab2;
-				--color-yellow: #f1d589;
-				--color-green: #bbe7a4;
-				--color-cyan: #88edda;
-				--color-blue: #9de3ff;
-				--color-violet: #edc7ff;
-				--color-indigo: #b2b2ff;
+				color-scheme: light dark;
 
-				--line-color: #000;
-				--back-color: #fff;
-				--text-color: #333;
+				--color-red: light-dark(#f4c0cf, #e886a7);
+				--color-orange: light-dark(#f4c3ac, #e98d61);
+				--color-yellow: light-dark(#ecc8a0, #db9640);
+				--color-green: light-dark(#bad8ad, #7db664);
+				--color-cyan: light-dark(#a2dbce, #39baa4);
+				--color-blue: light-dark(#9fd9e6, #2ab6d1);
+				--color-violet: light-dark(#e2c3ef, #ca8de1);
+				--color-indigo: light-dark(#c6cbff, #989cff);
+
+				--line-color: light-dark(#000, #fff);
+				--back-color: light-dark(#fff, #2e2e2e);
+				--text-color: light-dark(#2e2e2e, #fff);
 
 				fill: var(--text-color);
 				background-color: var(--back-color);
 				font-family: sans-serif;
 				font-size: 18px;
-			}
-
-			@media (prefers-color-scheme: dark) {
-				:root {
-					--line-color: #fff;
-					--back-color: #333;
-					--text-color: #fff;
-				}
 			}
 
 			.line {
@@ -51,12 +45,6 @@
 			.path {
 				height: 32px;
 				y: -16px;
-			}
-
-			@media (prefers-color-scheme: dark) {
-				.path {
-					filter: brightness(0.75) saturate(1.1)
-				}
 			}
 		</style>
 
