@@ -120,9 +120,9 @@
 		<text class="name" x="192">
 			Ольга Алексашенко
 		</text>
-		<rect class="path" style="fill: var(--color-yellow)" x="214" width="660"/>
-		<text x="866" y="6" text-anchor="end">
-			99
+		<rect class="path" style="fill: var(--color-yellow)" x="214" width="402"/>
+		<text x="608" y="6" text-anchor="end">
+			98
 		</text>
 	</g>
 	<g transform="translate(0 272)">
