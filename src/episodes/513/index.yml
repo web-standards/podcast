@@ -1,0 +1,23 @@
+title: ESLint 10, нативный HTML-патчинг, результаты State of JS 2025, CSS @scope и Temporal в Safari
+
+date: 2026-02-09T09:00
+
+hosts:
+  - Вадим Макеев
+  - Алексей Симоненко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:23
+    title: 'ESLint 10'
+  - time: 00:09:19
+    title: 'Нативный HTML-патчинг'
+  - time: 00:31:53
+    title: 'Результаты State of JS 2025'
+  - time: 01:11:32
+    title: 'CSS @scope вместо BEM'
+  - time: 01:29:24
+    title: 'Temporal в Safari'
+
+duration: 01:42:49
