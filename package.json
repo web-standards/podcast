@@ -2,6 +2,9 @@
 	"name": "podcast",
 	"private": true,
 	"type": "module",
+	"files": [
+		"src/episodes/"
+	],
 	"scripts": {
 		"test": "npx editorconfig-checker && npx eslint",
 		"build": "eleventy",
