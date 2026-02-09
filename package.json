@@ -16,7 +16,8 @@
 		"file-size": "node scripts/feed/file-size.js",
 		"prepare": "husky || true",
 		"wav": "node scripts/wav.js",
-		"mp3": "node scripts/mp3.js"
+		"mp3": "node scripts/mp3.js",
+		"hosts": "node scripts/hosts.js"
 	},
 	"engines": {
 		"node": ">=24"
