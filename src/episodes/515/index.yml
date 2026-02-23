@@ -1,0 +1,26 @@
+title: Chrome 145, Anchor Positioning, csskit, corner-shape и border-shape, WebMCP и MCP для Next.js
+
+date: 2026-02-23T09:00
+
+hosts:
+  - Вадим Макеев
+  - Полина Гуртовая
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:38
+    title: 'Новинки Chrome 145'
+  - time: 00:29:51
+    title: 'Anchor Positioning и csskit'
+  - time: 00:45:17
+    title: 'Сложное внедрение corner-shape'
+  - time: 01:04:52
+    title: 'Неквадратный веб с border-shape'
+  - time: 01:22:39
+    title: 'Зачем нам WebMCP'
+  - time: 01:36:52
+    title: 'Отладка Next.js с MCP'
+
+duration: 01:55:23
