@@ -1,0 +1,29 @@
+title: Прототип focusgroup, запись видео в Replit и большой холивар про Tailwind
+
+date: 2026-03-09T09:00
+
+hosts:
+  - Полина Гуртовая
+  - Никита Дубко
+
+guests:
+  - Нина Торгунакова
+  - Лёша Красиков
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:52
+    title: 'Прототип атрибута focusgroup'
+  - time: 00:17:20
+    title: 'Запись видео в Replit'
+  - time: 00:32:21
+    title: 'Докатились до Tailwind'
+  - time: 00:51:32
+    title: '(Не)удобство Tailwind'
+  - time: 01:22:20
+    title: 'Tailwind на практике'
+  - time: 01:39:31
+    title: 'Альтернативы и будущее'
+
+duration: 01:58:10
