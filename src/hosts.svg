@@ -140,7 +140,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="450"/>
 		<text x="938" y="6" text-anchor="end">
-			219
+			220
 		</text>
 	</g>
 	<g transform="translate(0 400)">
@@ -165,9 +165,9 @@
 		<text class="name" x="192">
 			Полина Гуртовая
 		</text>
-		<rect class="path" style="fill: var(--color-indigo)" x="802" width="132"/>
-		<text x="926" y="6" text-anchor="end">
-			41
+		<rect class="path" style="fill: var(--color-indigo)" x="802" width="144"/>
+		<text x="938" y="6" text-anchor="end">
+			42
 		</text>
 	</g>
 	<!-- / hosts -->
