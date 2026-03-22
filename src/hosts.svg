@@ -111,9 +111,9 @@
 		<text class="name" x="192">
 			Алексей Симоненко
 		</text>
-		<rect class="path" style="fill: var(--color-orange)" x="214" width="720"/>
-		<text x="926" y="6" text-anchor="end">
-			252
+		<rect class="path" style="fill: var(--color-orange)" x="214" width="732"/>
+		<text x="938" y="6" text-anchor="end">
+			253
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -140,7 +140,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="450"/>
 		<text x="938" y="6" text-anchor="end">
-			220
+			221
 		</text>
 	</g>
 	<g transform="translate(0 400)">
