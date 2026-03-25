@@ -1,0 +1,81 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+	version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+	<channel>
+		<title>{{ meta.title }}</title>
+		<description><![CDATA[{{ meta.description | markdown | safe }}]]></description>
+		<copyright>{{ meta.copyright }}</copyright>
+		<language>{{ meta.language }}</language>
+		<link>{{ meta.url }}</link>
+
+		<atom:link href="{{ meta.url }}feed/" rel="self" type="application/rss+xml"/>
+
+		<itunes:subtitle>{{ meta.subtitle }}</itunes:subtitle>
+		<itunes:type>{{ meta.type }}</itunes:type>
+		<itunes:author>{{ meta.author }}</itunes:author>
+		<itunes:explicit>{{ meta.explicit }}</itunes:explicit>
+		<itunes:owner>
+			<itunes:name>{{ meta.owner.name }}</itunes:name>
+			<itunes:email>{{ meta.owner.email }}</itunes:email>
+		</itunes:owner>
+		<itunes:image href="{{ meta.url }}{{ meta.cover }}"/>
+
+		{% for category in meta.categories %}
+		<itunes:category text="{{ category.title }}">
+			{%- for item in category.items %}
+			<itunes:category text="{{ item }}"/>
+			{%- endfor %}
+		</itunes:category>
+		{%- endfor %}
+
+		{% set episodes = collections.episode | getLast(feedConfig.limit) %}
+		{% for episode in episodes %}
+		{% set hosts = episode.data.hosts | join(", ") %}
+		{% set guests = episode.data.guests | join(", ") if episode.data.guests else "" %}
+		<item>
+			<title>{{ episode.fileSlug }}. {{ episode.data.title }}</title>
+			<link>{{ meta.url }}{{ episode.fileSlug }}/</link>
+			<pubDate>{{ episode.date | utcString }}</pubDate>
+			{% set description %}
+				<p>Простой способ сказать нам «спасибо» и попасть в закрытый чат:</p>
+				<p>
+					• <a href="https://boosty.to/webstandards_ru">Бусти</a><br>
+					• <a href="https://www.patreon.com/webstandards_ru">Патреон</a>
+				</p>
+				<p>Ведущие: {{ hosts }}</p>
+				{%- if guests %}
+					<p>Гости: {{ guests }}</p>
+				{%- endif %}
+				{%- if episode.data.chapters %}
+					<p>Темы</p>
+					<p>
+						{%- for chapter in episode.data.chapters %}
+						{{ chapter.time }} {{ chapter.title | safe }}<br>
+						{%- endfor %}
+					</p>
+				{%- endif %}
+				{{ episode.content | safe }}
+			{% endset %}
+			<description><![CDATA[{{ description | htmlmin | safe }}]]></description>
+			<guid isPermaLink="true">{{ meta.url }}episodes/{{ episode.fileSlug }}.mp3</guid>
+			<enclosure
+				type="audio/mpeg"
+				url="{{ meta.url }}episodes/{{ episode.fileSlug }}.mp3"
+				length="{{ ("src/mp3/" + episode.fileSlug + ".mp3") | length }}"
+			/>
+			<itunes:episode>{{ episode.fileSlug }}</itunes:episode>
+			<itunes:duration>{{ episode.data.duration | duration }}</itunes:duration>
+			<itunes:author>{{ hosts }}</itunes:author>
+			<itunes:explicit>{{ meta.explicit }}</itunes:explicit>
+			<itunes:summary>{{ episode.date | formatDate }}: {{ episode.data.title | safe }}. {{ hosts }}</itunes:summary>
+			<itunes:image href="{{ meta.url }}{{ meta.cover }}"/>
+		</item>
+		{% endfor %}
+	</channel>
+</rss>

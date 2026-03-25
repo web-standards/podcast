@@ -32,6 +32,28 @@ export default (config) => {
 		return markdown.renderInline(value);
 	});
 
+	config.addFilter('utcString', (date) => {
+		return date.toUTCString();
+	});
+
+	config.addFilter('formatDate', (date) => {
+		return date
+			.toLocaleString('ru', {
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric',
+			})
+			.replace(' г.', '');
+	});
+
+	config.addFilter('getLast', (array, items) => {
+		if (!items) {
+			return array;
+		}
+
+		return array.slice(-items);
+	});
+
 	config.addFilter('htmlmin', async value => {
 		return await htmlmin.minify(
 			value, {
