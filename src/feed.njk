@@ -45,8 +45,9 @@
 			{% set description %}
 				<p>Простой способ сказать нам «спасибо» и попасть в закрытый чат:</p>
 				<p>
-					• <a href="https://boosty.to/webstandards_ru">Бусти</a><br>
-					• <a href="https://www.patreon.com/webstandards_ru">Патреон</a>
+					{%- for support in meta.support %}
+						• <a href="{{ support.link }}">{{ support.name }}</a>{{- '<br>' | safe if not loop.last -}}
+					{%- endfor %}
 				</p>
 				<p>Ведущие: {{ hosts }}</p>
 				{%- if guests %}
@@ -56,11 +57,17 @@
 					<p>Темы</p>
 					<p>
 						{%- for chapter in episode.data.chapters %}
-						{{ chapter.time }} {{ chapter.title | safe }}<br>
+							{{ chapter.time }} {{ chapter.title | safe }}<br>
 						{%- endfor %}
 					</p>
 				{%- endif %}
 				{{ episode.content | safe }}
+				<p>Читайте новости</p>
+				<p>
+					{%- for news in meta.news %}
+						• <a href="{{ news.link }}">{{ news.name }}</a>{{- '<br>' | safe if not loop.last -}}
+					{%- endfor %}
+				</p>
 			{% endset %}
 			<description><![CDATA[{{ description | htmlmin | safe }}]]></description>
 			<guid isPermaLink="true">{{ meta.url }}episodes/{{ episode.fileSlug }}.mp3</guid>

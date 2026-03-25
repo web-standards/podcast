@@ -20,3 +20,25 @@ owner:
 copyright: СС BY-NC-ND 4.0
 
 cover: cover.png
+
+support:
+  - name: Boosty
+    link: https://boosty.to/webstandards_ru
+  - name: Patreon
+    link: https://www.patreon.com/webstandards_ru
+
+news:
+  - name: Telegram
+    link: https://t.me/webstandards_ru
+  - name: X
+    link: https://x.com/webstandards_ru
+  - name: VK
+    link: https://vk.com/webstandards_ru
+  - name: Facebook
+    link: https://www.facebook.com/webstandardsru/
+  - name: Mastodon
+    link: https://mastodon.social/@webstandards_ru
+  - name: Bluesky
+    link: https://bsky.app/profile/web-standards.ru
+  - name: LinkedIn
+    link: https://www.linkedin.com/company/web-standards-ru/
