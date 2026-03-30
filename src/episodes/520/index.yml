@@ -1,0 +1,24 @@
+title: Safari 26.4, Firefox 149, TypeScript 6.0 и миксины в CSS
+
+date: 2026-03-30T09:00
+
+hosts:
+  - Полина Гуртовая
+  - Вадим Макеев
+  - Алексей Симоненко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:07
+    title: 'Safari 26.4'
+  - time: 00:42:52
+    title: 'Firefox 149'
+  - time: 01:19:03
+    title: 'TypeScript 6.0'
+  - time: 01:41:42
+    title: 'Миксины в CSS'
+  - time: 01:59:28
+    title: 'Ответы на вопросы'
+
+duration: 02:03:54
