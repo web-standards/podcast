@@ -1,0 +1,24 @@
+title: Новинки Chrome 147, CSS в Shadow DOM, стейт на CSS-анимациях и фронтенд MDN
+
+date: 2026-04-13T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Никита Дубко
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:30
+    title: 'Помощники, возвращайтесь'
+  - time: 00:03:49
+    title: 'Новинки Chrome 147'
+  - time: 00:35:31
+    title: 'Проблемы CSS в Shadow DOM'
+  - time: 00:52:01
+    title: 'Стейт на CSS-анимациях'
+  - time: 01:07:11
+    title: 'Фронтенд MDN'
+
+duration: 01:30:46
