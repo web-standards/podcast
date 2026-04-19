@@ -102,18 +102,18 @@
 		<text class="name" x="192">
 			Вадим Макеев
 		</text>
-		<rect class="path" style="fill: var(--color-red)" x="214" width="726"/>
-		<text x="932" y="6" text-anchor="end">
-			442
+		<rect class="path" style="fill: var(--color-red)" x="214" width="738"/>
+		<text x="944" y="6" text-anchor="end">
+			444
 		</text>
 	</g>
 	<g transform="translate(0 144)">
 		<text class="name" x="192">
 			Алексей Симоненко
 		</text>
-		<rect class="path" style="fill: var(--color-orange)" x="214" width="726"/>
-		<text x="932" y="6" text-anchor="end">
-			255
+		<rect class="path" style="fill: var(--color-orange)" x="214" width="738"/>
+		<text x="944" y="6" text-anchor="end">
+			257
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -140,7 +140,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="456"/>
 		<text x="944" y="6" text-anchor="end">
-			223
+			225
 		</text>
 	</g>
 	<g transform="translate(0 400)">
