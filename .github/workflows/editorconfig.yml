@@ -1,10 +1,7 @@
-name: editorconfig
+name: EditorConfig
 
 on:
   pull_request:
-  push:
-    branches:
-      - main
 
 jobs:
   lint:

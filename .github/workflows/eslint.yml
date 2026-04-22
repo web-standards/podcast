@@ -1,10 +1,7 @@
-name: eslint
+name: ESLint
 
 on:
   pull_request:
-  push:
-    branches:
-      - main
 
 jobs:
   lint:
