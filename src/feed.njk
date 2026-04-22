@@ -1,4 +1,5 @@
 ---
+permalink: index.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <rss
@@ -34,7 +35,7 @@
 		</itunes:category>
 		{%- endfor %}
 
-		{% set episodes = collections.episode | getLast(feedConfig.limit) %}
+		{% set episodes = collections.episode | getLast(0) %}
 		{% for episode in episodes %}
 		{% set hosts = episode.data.hosts | join(", ") %}
 		{% set guests = episode.data.guests | join(", ") if episode.data.guests else "" %}

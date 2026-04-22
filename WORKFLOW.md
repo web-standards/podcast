@@ -71,7 +71,7 @@
 	npm run build
 	```
 
-	Соберёт `index.xml` и `latest.xml` в `dist`.
+	Соберёт `index.xml` в `dist`.
 
 	```sh
 	npm run deploy
@@ -81,7 +81,7 @@
 
 	- `src/mp3/N.mp3` в `/podcast/episodes/`
 	- `src/cover.png` в `/podcast/`
-	- `index.xml` и `latest.xml` в `/podcast/feed/`
+	- `index.xml` в `/podcast/feed/`
 
 12. Запустите сборку сайта в [web-standards/web-standards.ru](https://github.com/web-standards/web-standards.ru)
 
