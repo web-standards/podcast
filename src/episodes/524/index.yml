@@ -1,0 +1,28 @@
+title: Firefox 150, Git 2.54, параллельные агенты в Zed, бета TypeScript 7.0, картинки и Temporal
+
+date: 2026-04-27T09:00
+
+hosts:
+  - Полина Гуртовая
+  - Вадим Макеев
+  - Алексей Симоненко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:00
+    title: 'Переезд сайта'
+  - time: 00:02:55
+    title: 'Новинки Firefox 150'
+  - time: 00:21:03
+    title: 'Git 2.54'
+  - time: 00:33:10
+    title: 'Параллельные агенты в Zed'
+  - time: 00:53:44
+    title: 'Бета TypeScript 7.0'
+  - time: 01:09:03
+    title: 'Конец адаптивных картинок'
+  - time: 01:23:46
+    title: 'Temporal в Node.js'
+
+duration: 01:29:10
