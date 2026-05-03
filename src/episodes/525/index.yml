@@ -1,0 +1,24 @@
+title: HTML в Canvas, сайты для агентов, сомнительный Prompt API, альфа Astro 7 и путь к Zed 1.0
+
+date: 2026-05-04T09:00
+
+hosts:
+  - Никита Дубко
+  - Алексей Симоненко
+  - Полина Гуртовая
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:30
+    title: 'HTML в Canvas'
+  - time: 00:21:41
+    title: 'Сайты для агентов'
+  - time: 00:39:35
+    title: 'Сомнительный Prompt API'
+  - time: 01:15:55
+    title: 'Альфа Astro 7'
+  - time: 01:25:34
+    title: 'Путь к Zed 1.0'
+
+duration: 01:49:04
