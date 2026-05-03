@@ -15,7 +15,7 @@
 		"deploy": "npm run deploy:cover && npm run deploy:mp3 && npm run deploy:feed",
 		"new": "node scripts/new.js",
 		"file-size": "node scripts/feed/file-size.js",
-		"prepare": "husky || true",
+		"prepare": "git config --local include.path ../.gitconfig",
 		"wav": "node scripts/wav.js",
 		"mp3": "node scripts/mp3.js",
 		"hosts": "node scripts/hosts.js"
@@ -32,7 +32,6 @@
 		"get-mp3-duration": "^1.0.0",
 		"globals": "^17.5.0",
 		"html-minifier-terser": "^7.2.0",
-		"husky": "^9.1.7",
 		"js-yaml": "^4.1.1",
 		"minify-xml": "^4.5.2",
 		"node-id3": "^0.2.9"

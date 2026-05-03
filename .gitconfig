@@ -1,0 +1,3 @@
+[hook "file-size"]
+	event = pre-commit
+	command = .githooks/pre-commit
