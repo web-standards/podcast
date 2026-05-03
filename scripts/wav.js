@@ -32,17 +32,6 @@ function getMediaInfo(inputFile) {
 	]);
 }
 
-function getChapters(inputFile) {
-	return runCommandSync('ffprobe', [
-		'-i', inputFile,
-		'-loglevel', '0',
-		'-hide_banner',
-		'-print_format', 'json',
-		'-show_chapters',
-		'-pretty',
-	]);
-}
-
 function formatDuration(seconds) {
 	return new Date(seconds * 1000).toISOString().slice(11, 19);
 }
@@ -53,13 +42,9 @@ function updateYmlDuration(ymlPath, duration) {
 	fs.writeFileSync(ymlPath, updated);
 }
 
-function parseTime(str) {
-	return `0${str}`.split('.')[0];
-}
-
 function formatChapters(chapters) {
 	return chapters.map(chapter => {
-		const startTime = parseTime(chapter.start_time);
+		const startTime = formatDuration(parseFloat(chapter.start_time));
 		const title = chapter.tags.title;
 		return `${startTime} ${title}`;
 	}).join('\n');
@@ -109,16 +94,15 @@ fs.mkdirSync(mp3Dir, { recursive: true });
 buildMp3(episode, path.join('src', 'wav'), mp3Dir);
 
 const mediaInfo = JSON.parse(getMediaInfo(mp3Path));
-const chaptersInfo = JSON.parse(getChapters(mp3Path));
 
-if (!chaptersInfo.chapters) {
+if (!mediaInfo.chapters || mediaInfo.chapters.length === 0) {
 	console.error('В файле нет глав');
 	process.exit(1);
 }
 
 fs.mkdirSync(episodeDir, { recursive: true });
 
-writeIndexFile(templatePath, episode, chaptersInfo.chapters, indexPath);
+writeIndexFile(templatePath, episode, mediaInfo.chapters, indexPath);
 
 const durationSeconds = parseFloat(mediaInfo.format.duration);
 const duration = formatDuration(durationSeconds);

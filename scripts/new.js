@@ -25,11 +25,9 @@ ${table}
 
 function getNextMonday() {
 	const monday = new Date();
-	monday.setDate(monday.getDate() + ((1 + 7 - monday.getDay()) % 7));
-	monday.setUTCHours(9);
-	monday.setMinutes(0);
-	monday.setSeconds(0);
-	monday.setMilliseconds(0);
+	const daysUntilMonday = ((8 - monday.getUTCDay()) % 7) || 7;
+	monday.setUTCDate(monday.getUTCDate() + daysUntilMonday);
+	monday.setUTCHours(9, 0, 0, 0);
 	return monday.toISOString().slice(0, 16);
 }
 

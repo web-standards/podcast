@@ -7,7 +7,7 @@ import NodeID3 from 'node-id3';
 const episode = process.argv[2];
 
 if (!episode) {
-	console.error('Укажи номер эпизода: node scripts/update-tags.js 505');
+	console.error('Укажи номер эпизода: npm run mp3 N');
 	process.exit(1);
 }
 
