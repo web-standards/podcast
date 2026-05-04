@@ -1,4 +1,3 @@
-import fs from 'node:fs';
 import yaml from 'js-yaml';
 import htmlmin from 'html-minifier-terser';
 import markdownIt from 'markdown-it';
@@ -10,12 +9,6 @@ const markdown = markdownIt({ html: true });
 export default (config) => {
 	config.addDataExtension('yml', (contents) => {
 		return yaml.load(contents);
-	});
-
-	config.addFilter('length', (path) => {
-		const stats = fs.statSync(path);
-
-		return stats.size;
 	});
 
 	config.addFilter('duration', (time) => {

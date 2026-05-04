@@ -18,6 +18,7 @@
 		"wav": "node scripts/wav.js",
 		"mp3": "node scripts/mp3.js",
 		"duration": "node scripts/duration.js",
+		"length": "node scripts/length.js",
 		"hosts": "node scripts/hosts.js"
 	},
 	"engines": {

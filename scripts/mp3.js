@@ -105,3 +105,16 @@ if (success === true) {
 	console.error('Ошибка при записи тегов:', success);
 	process.exit(1);
 }
+
+const length = fs.statSync(mp3Path).size;
+const lengthRegex = /^length:.*$/m;
+let updatedYml;
+if (lengthRegex.test(ymlContent)) {
+	updatedYml = ymlContent.replace(lengthRegex, `length: ${length}`);
+} else {
+	updatedYml = ymlContent.replace(/\n*$/, '') + `\nlength: ${length}\n`;
+}
+fs.writeFileSync(ymlPath, updatedYml, 'utf-8');
+
+console.log(`\n✓ Размер записан: ${length}\n`);
+console.log(ymlPath);
