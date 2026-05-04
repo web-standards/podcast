@@ -17,6 +17,7 @@
 		"prepare": "git config --local include.path ../.gitconfig",
 		"wav": "node scripts/wav.js",
 		"mp3": "node scripts/mp3.js",
+		"duration": "node scripts/duration.js",
 		"hosts": "node scripts/hosts.js"
 	},
 	"engines": {
