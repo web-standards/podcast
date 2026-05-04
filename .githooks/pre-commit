@@ -1,5 +1,3 @@
 #!/bin/sh
 
-npm run test && \
-npm run file-size && \
-git add 'src/episodes/*/index.json'
+npm run test
