@@ -1,3 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-npm run test
+set -e
+
+npx lint-staged.sh "npx editorconfig-checker" "*"
+npx lint-staged.sh "npx eslint" "*.js"

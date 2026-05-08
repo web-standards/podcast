@@ -33,6 +33,7 @@
 		"globals": "^17.6.0",
 		"html-minifier-terser": "^7.2.0",
 		"js-yaml": "^4.1.1",
+		"lint-staged.sh": "^0.6.0",
 		"minify-xml": "^4.5.2",
 		"node-id3": "^0.2.9"
 	}
