@@ -104,7 +104,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-red)" x="214" width="744"/>
 		<text x="950" y="6" text-anchor="end">
-			445
+			446
 		</text>
 	</g>
 	<g transform="translate(0 144)">
@@ -113,7 +113,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-orange)" x="214" width="744"/>
 		<text x="950" y="6" text-anchor="end">
-			258
+			260
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -140,7 +140,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="462"/>
 		<text x="950" y="6" text-anchor="end">
-			225
+			227
 		</text>
 	</g>
 	<g transform="translate(0 400)">
@@ -167,7 +167,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-indigo)" x="802" width="156"/>
 		<text x="950" y="6" text-anchor="end">
-			45
+			46
 		</text>
 	</g>
 	<!-- / hosts -->

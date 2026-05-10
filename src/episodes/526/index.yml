@@ -1,0 +1,25 @@
+title: Chrome 148, Blink для Apple tvOS, Node.js 26, No-Vary-Search и Local-first
+
+date: 2026-05-11T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Никита Дубко
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:38
+    title: 'Новинки Chrome 148'
+  - time: 00:45:29
+    title: 'Blink для Apple tvOS'
+  - time: 00:59:37
+    title: 'Релиз Node.js 26'
+  - time: 01:18:59
+    title: 'No-Vary-Search сохраняет кэш'
+  - time: 01:36:42
+    title: 'Мечта о Local-first'
+
+duration: 02:02:37
+length: 117939639
