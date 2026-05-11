@@ -12,7 +12,7 @@
 		"deploy:cover": "npm run deploy:rsync -- ./src/cover.png deploy@web-standards.ru:/opt/sites/web-standards.ru/public/podcast/",
 		"deploy:mp3": "npm run deploy:rsync -- ./src/mp3/ deploy@web-standards.ru:/opt/sites/web-standards.ru/public/podcast/episodes/",
 		"deploy:feed": "npm run deploy:rsync -- ./dist/index.xml deploy@web-standards.ru:/opt/sites/web-standards.ru/public/podcast/feed/",
-		"deploy": "npm run deploy:cover && npm run deploy:mp3 && npm run deploy:feed",
+		"deploy": "npm run deploy:cover && npm run deploy:mp3 && npm run deploy:feed && git push",
 		"new": "node scripts/new.js",
 		"prepare": "git config --local include.path ../.gitconfig",
 		"wav": "node scripts/wav.js",
