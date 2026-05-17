@@ -113,7 +113,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-orange)" x="214" width="744"/>
 		<text x="950" y="6" text-anchor="end">
-			260
+			261
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -140,7 +140,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="462"/>
 		<text x="950" y="6" text-anchor="end">
-			227
+			228
 		</text>
 	</g>
 	<g transform="translate(0 400)">
