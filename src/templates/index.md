@@ -4,6 +4,6 @@
 
 TODO
 
-## Ответы на вопросы
+## Пишите нам
 
 [podcast@web-standards.ru](mailto:podcast@web-standards.ru)
