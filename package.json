@@ -29,11 +29,11 @@
 		"@eslint/js": "^10.0.1",
 		"@eslint/markdown": "^8.0.1",
 		"editorconfig-checker": "^6.1.1",
-		"eslint": "^10.3.0",
+		"eslint": "^10.4.0",
 		"globals": "^17.6.0",
 		"html-minifier-terser": "^7.2.0",
 		"js-yaml": "^4.1.1",
-		"lint-staged.sh": "^0.6.0",
+		"lint-staged.sh": "^0.6.2",
 		"minify-xml": "^4.5.2",
 		"node-id3": "^0.2.9"
 	}
