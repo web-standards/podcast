@@ -47,6 +47,19 @@ export default (config) => {
 		return array.slice(-items);
 	});
 
+	config.addFilter('htmlToText', (value) => {
+		return value
+			.replace(/<a\s[^>]*href="([^"]+)"[^>]*>(.*?)<\/a>/gi, '$2 $1')
+			.replace(/<br\s*\/??>\s*<\/p>/gi, '</p>')
+			.replace(/<\/p>\s*/gi, '\n\n')
+			.replace(/<br\s*\/??>\s*/gi, '\n')
+			.replace(/<[^>]+>/g, '')
+			.replace(/[ \t]+/g, ' ')
+			.replace(/ *\n */g, '\n')
+			.replace(/\n{3,}/g, '\n\n')
+			.trim();
+	});
+
 	config.addFilter('htmlmin', async value => {
 		return await htmlmin.minify(
 			value, {

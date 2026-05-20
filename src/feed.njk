@@ -70,7 +70,8 @@ permalink: index.xml
 					{%- endfor %}
 				</p>
 			{% endset %}
-			<description><![CDATA[{{ description | htmlmin | safe }}]]></description>
+			<description><![CDATA[{{ description | htmlToText | safe }}]]></description>
+			<content:encoded><![CDATA[{{ description | htmlmin | safe }}]]></content:encoded>
 			<guid isPermaLink="true">{{ meta.url }}episodes/{{ episode.fileSlug }}.mp3</guid>
 			<enclosure
 				type="audio/mpeg"
