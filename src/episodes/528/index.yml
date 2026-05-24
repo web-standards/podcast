@@ -1,0 +1,32 @@
+title: 'Firefox 151, Google I/O: CSS, WebMCP, Modern Web Guidance, DevTools, Prompt API, HTML в Canvas'
+
+date: 2026-05-25T09:00
+
+hosts:
+  - Вадим Макеев
+  - Алексей Симоненко
+  - Полина Гуртовая
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:22
+    title: 'Новинки Firefox 151'
+  - time: 00:26:00
+    title: 'CSS и UI на Google I/O'
+  - time: 00:42:29
+    title: 'WebMCP и агентный веб'
+  - time: 00:45:47
+    title: 'Modern Web Guidance'
+  - time: 01:18:59
+    title: 'DevTools для агентов'
+  - time: 01:32:06
+    title: 'Prompt API в Chrome'
+  - time: 01:41:07
+    title: 'Core Web Vitals'
+  - time: 01:53:26
+    title: 'HTML в Canvas'
+
+duration: 02:04:04
+length: 119331790
