@@ -104,15 +104,15 @@
 		</text>
 		<rect class="path" style="fill: var(--color-red)" x="214" width="744"/>
 		<text x="950" y="6" text-anchor="end">
-			447
+			448
 		</text>
 	</g>
 	<g transform="translate(0 144)">
 		<text class="name" x="192">
 			Алексей Симоненко
 		</text>
-		<rect class="path" style="fill: var(--color-orange)" x="214" width="744"/>
-		<text x="950" y="6" text-anchor="end">
+		<rect class="path" style="fill: var(--color-orange)" x="214" width="738"/>
+		<text x="944" y="6" text-anchor="end">
 			262
 		</text>
 	</g>
@@ -140,7 +140,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="462"/>
 		<text x="950" y="6" text-anchor="end">
-			229
+			230
 		</text>
 	</g>
 	<g transform="translate(0 400)">
@@ -165,8 +165,8 @@
 		<text class="name" x="192">
 			Полина Гуртовая
 		</text>
-		<rect class="path" style="fill: var(--color-indigo)" x="802" width="156"/>
-		<text x="950" y="6" text-anchor="end">
+		<rect class="path" style="fill: var(--color-indigo)" x="802" width="150"/>
+		<text x="944" y="6" text-anchor="end">
 			47
 		</text>
 	</g>
