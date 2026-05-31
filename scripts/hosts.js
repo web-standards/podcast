@@ -144,10 +144,11 @@ function patchSVG(svgContent, hosts, now) {
 		`$1${height}$3`
 	);
 
-	// 3. Update horizontal line definition x2
+	// 3. Update horizontal line definition x2 — extend to full chart width,
+	//    not just current month (width >= currentMonthX due to the Math.max above)
 	svg = svg.replace(
 		/(id="horizontal"[\s\S]*?x2=")(\d+)(")/,
-		`$1${currentMonthX}$3`
+		`$1${width}$3`
 	);
 
 	// 4. Replace vertical <use> lines
@@ -157,19 +158,19 @@ function patchSVG(svgContent, hosts, now) {
 		verticalLines.push(`\t<use href="#vertical" x="${x}"/>`);
 	}
 	svg = svg.replace(
-		/\t<use href="#vertical"[^]*?(?=\n\n)/,
-		verticalLines.join('\n')
+		/<!-- verticals -->([\s\S]*?)<!-- \/verticals -->/,
+		`<!-- verticals -->\n${verticalLines.join('\n')}\n\t<!-- /verticals -->`
 	);
 
-	// 5. Replace horizontal <use> lines
+	// 5. Replace horizontal <use> lines (one per host row)
 	const horizontalLines = [];
 	for (let i = 0; i < numHosts; i++) {
 		const y = FIRST_ROW_Y + i * ROW_HEIGHT;
 		horizontalLines.push(`\t<use href="#horizontal" y="${y}"/>`);
 	}
 	svg = svg.replace(
-		/\t<use href="#horizontal"[^]*?(?=\n\n)/,
-		horizontalLines.join('\n')
+		/<!-- horizontals -->([\s\S]*?)<!-- \/horizontals -->/,
+		`<!-- horizontals -->\n${horizontalLines.join('\n')}\n\t<!-- /horizontals -->`
 	);
 
 	// 6. Replace year labels group

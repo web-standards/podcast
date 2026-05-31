@@ -58,10 +58,11 @@
 			id="horizontal"
 			class="line horizontal"
 			x1="208" y1="0"
-			x2="958" y2="0"
+			x2="1000" y2="0"
 		/>
 	</defs>
 
+	<!-- verticals -->
 	<use href="#vertical" x="208"/>
 	<use href="#vertical" x="280"/>
 	<use href="#vertical" x="352"/>
@@ -73,7 +74,9 @@
 	<use href="#vertical" x="784"/>
 	<use href="#vertical" x="856"/>
 	<use href="#vertical" x="928"/>
+	<!-- /verticals -->
 
+	<!-- horizontals -->
 	<use href="#horizontal" y="80"/>
 	<use href="#horizontal" y="144"/>
 	<use href="#horizontal" y="208"/>
@@ -82,6 +85,7 @@
 	<use href="#horizontal" y="400"/>
 	<use href="#horizontal" y="464"/>
 	<use href="#horizontal" y="528"/>
+	<!-- /horizontals -->
 
 	<g transform="translate(16 592)">
 		<text x="208">2016</text>
