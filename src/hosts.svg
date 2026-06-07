@@ -106,8 +106,8 @@
 		<text class="name" x="192">
 			Вадим Макеев
 		</text>
-		<rect class="path" style="fill: var(--color-red)" x="214" width="744"/>
-		<text x="950" y="6" text-anchor="end">
+		<rect class="path" style="fill: var(--color-red)" x="214" width="750"/>
+		<text x="956" y="6" text-anchor="end">
 			448
 		</text>
 	</g>
@@ -142,9 +142,9 @@
 		<text class="name" x="192">
 			Никита Дубко
 		</text>
-		<rect class="path" style="fill: var(--color-cyan)" x="496" width="462"/>
-		<text x="950" y="6" text-anchor="end">
-			230
+		<rect class="path" style="fill: var(--color-cyan)" x="496" width="468"/>
+		<text x="956" y="6" text-anchor="end">
+			231
 		</text>
 	</g>
 	<g transform="translate(0 400)">
@@ -169,9 +169,9 @@
 		<text class="name" x="192">
 			Полина Гуртовая
 		</text>
-		<rect class="path" style="fill: var(--color-indigo)" x="802" width="150"/>
-		<text x="944" y="6" text-anchor="end">
-			47
+		<rect class="path" style="fill: var(--color-indigo)" x="802" width="162"/>
+		<text x="956" y="6" text-anchor="end">
+			48
 		</text>
 	</g>
 	<!-- / hosts -->
