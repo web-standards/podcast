@@ -1,0 +1,24 @@
+title: 'Firefox 152, планы Mozilla на 2026, закат Manifest V2, MCP-сервер MDN, браузеры на консолях'
+
+date: 2026-06-22T09:00
+
+hosts:
+  - Никита Дубко
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:31
+    title: 'Новинки Firefox 152'
+  - time: 00:20:47
+    title: 'Планы Mozilla на 2026'
+  - time: 00:30:57
+    title: 'Закат Manifest V2'
+  - time: 01:01:05
+    title: 'MCP-сервер MDN'
+  - time: 01:16:30
+    title: 'Браузеры на консолях'
+
+duration: 01:50:29
+length: 106291469
