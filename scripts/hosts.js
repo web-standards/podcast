@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import yaml from 'js-yaml';
+import { load as loadYaml } from 'js-yaml';
 
 // Configuration
 const EPISODES_DIR = path.join('src', 'episodes');
@@ -55,7 +55,7 @@ function readEpisodes() {
 		if (!fs.existsSync(ymlPath)) continue;
 
 		const content = fs.readFileSync(ymlPath, 'utf-8');
-		const data = yaml.load(content);
+		const data = loadYaml(content);
 
 		if (!data || !data.date || !data.hosts) continue;
 
