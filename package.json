@@ -30,9 +30,9 @@
 		"@eslint/markdown": "^8.0.2",
 		"editorconfig-checker": "^6.1.1",
 		"eslint": "^10.5.0",
-		"globals": "^17.6.0",
+		"globals": "^17.7.0",
 		"html-minifier-terser": "^7.2.0",
-		"js-yaml": "^4.2.0",
+		"js-yaml": "^5.0.0",
 		"lint-staged.sh": "^0.6.9",
 		"minify-xml": "^4.5.2",
 		"node-id3": "^0.2.9"
