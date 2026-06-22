@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execSync } from 'node:child_process';
-import yaml from 'js-yaml';
+import { load as loadYaml } from 'js-yaml';
 import NodeID3 from 'node-id3';
 
 const episode = process.argv[2];
@@ -26,7 +26,7 @@ if (!fs.existsSync(mp3Path)) {
 }
 
 const ymlContent = fs.readFileSync(ymlPath, 'utf-8');
-const data = yaml.load(ymlContent);
+const data = loadYaml(ymlContent);
 
 const title = `${episode}. ${data.title}`;
 const album = 'Веб-стандарты';

@@ -1,4 +1,4 @@
-import yaml from 'js-yaml';
+import { load as loadYaml } from 'js-yaml';
 import htmlmin from 'html-minifier-terser';
 import markdownIt from 'markdown-it';
 import { stripHeadings, stripLists } from './scripts/feed/strip-tags.js';
@@ -8,7 +8,7 @@ const markdown = markdownIt({ html: true });
 
 export default (config) => {
 	config.addDataExtension('yml', (contents) => {
-		return yaml.load(contents);
+		return loadYaml(contents);
 	});
 
 	config.addFilter('duration', (time) => {
