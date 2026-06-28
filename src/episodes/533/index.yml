@@ -1,0 +1,25 @@
+title: 'Чего не хватает SVG, DevTools для агентов, Grid Lanes, Git Worktree, одинаковость сайтов'
+
+date: 2026-06-29T09:00
+
+hosts:
+  - Никита Дубко
+  - Алексей Симоненко
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:38
+    title: 'Чего не хватает SVG'
+  - time: 00:28:30
+    title: 'DevTools для агентов'
+  - time: 00:55:34
+    title: 'Grid Lanes и доступность'
+  - time: 01:14:40
+    title: 'Git Worktree'
+  - time: 01:27:52
+    title: 'Одинаковость сайтов'
+
+duration: 01:56:30
+length: 112067327
