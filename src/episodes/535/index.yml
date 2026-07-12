@@ -1,0 +1,32 @@
+title: 'State of Devs 2026, TypeScript 7.0 и AT Protocol с Дэном Абрамовым'
+
+date: 2026-07-13T09:00
+
+hosts:
+  - Никита Дубко
+  - Вадим Макеев
+  - Полина Гуртовая
+
+guests:
+  - Дэн Абрамов
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:23
+    title: 'Дэн Абрамов'
+  - time: 00:03:50
+    title: 'State of Devs 2026'
+  - time: 00:06:02
+    title: 'TypeScript 7.0'
+  - time: 00:14:12
+    title: 'AT Protocol'
+  - time: 00:33:15
+    title: 'ATProto: что это'
+  - time: 01:04:42
+    title: 'ATProto: на практике'
+  - time: 01:28:29
+    title: 'ATProto: будущее'
+
+duration: 01:42:53
+length: 98995719
