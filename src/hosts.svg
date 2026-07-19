@@ -108,16 +108,16 @@
 		</text>
 		<rect class="path" style="fill: var(--color-red)" x="214" width="756"/>
 		<text x="962" y="6" text-anchor="end">
-			451
+			452
 		</text>
 	</g>
 	<g transform="translate(0 144)">
 		<text class="name" x="192">
 			Алексей Симоненко
 		</text>
-		<rect class="path" style="fill: var(--color-orange)" x="214" width="744"/>
-		<text x="950" y="6" text-anchor="end">
-			264
+		<rect class="path" style="fill: var(--color-orange)" x="214" width="756"/>
+		<text x="962" y="6" text-anchor="end">
+			265
 		</text>
 	</g>
 	<g transform="translate(0 208)">
