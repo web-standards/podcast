@@ -1,0 +1,27 @@
+title: 'Новинки Firefox 153, Cross-Origin Storage API, тестирование перфоманса и взлёт Base UI'
+
+date: 2026-07-27T09:00
+
+hosts:
+  - Вадим Макеев
+  - Полина Гуртовая
+  - Никита Дубко
+  - Алексей Симоненко
+
+guests:
+  - Лёша Красиков
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:23
+    title: 'Новинки Firefox 153'
+  - time: 00:23:35
+    title: 'Cross-Origin Storage API'
+  - time: 00:45:27
+    title: 'Тестирование перфоманса'
+  - time: 01:24:19
+    title: 'Взлёт Base UI'
+
+duration: 01:53:08
+length: 108835657
