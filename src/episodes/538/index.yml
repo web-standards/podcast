@@ -1,0 +1,24 @@
+title: 'Новинки Chrome 151, релиз Safari 26.6, ACP v2, роутинг и случайная ссылка на CSS'
+
+date: 2026-08-03T09:00
+
+hosts:
+  - Никита Дубко
+  - Полина Гуртовая
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:40
+    title: 'Новинки Chrome 151'
+  - time: 00:40:26
+    title: 'Релиз Safari 26.6'
+  - time: 00:46:10
+    title: 'Вышел ACP v2'
+  - time: 01:05:08
+    title: 'Роутинг в CSS'
+  - time: 01:21:55
+    title: 'Случайная ссылка на CSS'
+
+duration: 01:38:31
+length: 94803417
