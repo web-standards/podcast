@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 704">
 	<defs>
 		<style>
 			:root {
@@ -12,6 +12,7 @@
 				--color-blue: light-dark(#9fd9e6, #2ab6d1);
 				--color-violet: light-dark(#e2c3ef, #ca8de1);
 				--color-indigo: light-dark(#c6cbff, #989cff);
+				--color-magenta: light-dark(#f0c2e8, #de7cce);
 
 				--line-color: light-dark(#000, #fff);
 				--back-color: light-dark(#fff, #2e2e2e);
@@ -52,7 +53,7 @@
 			id="vertical"
 			class="line vertical"
 			x1="0" y1="0"
-			x2="0" y2="640"
+			x2="0" y2="704"
 		/>
 		<line
 			id="horizontal"
@@ -85,9 +86,10 @@
 	<use href="#horizontal" y="400"/>
 	<use href="#horizontal" y="464"/>
 	<use href="#horizontal" y="528"/>
+	<use href="#horizontal" y="592"/>
 	<!-- /horizontals -->
 
-	<g transform="translate(16 592)">
+	<g transform="translate(16 656)">
 		<text x="208">2016</text>
 		<text x="280">2017</text>
 		<text x="352">2018</text>
@@ -106,18 +108,18 @@
 		<text class="name" x="192">
 			Вадим Макеев
 		</text>
-		<rect class="path" style="fill: var(--color-red)" x="214" width="750"/>
-		<text x="956" y="6" text-anchor="end">
-			453
+		<rect class="path" style="fill: var(--color-red)" x="214" width="762"/>
+		<text x="968" y="6" text-anchor="end">
+			454
 		</text>
 	</g>
 	<g transform="translate(0 144)">
 		<text class="name" x="192">
 			Алексей Симоненко
 		</text>
-		<rect class="path" style="fill: var(--color-orange)" x="214" width="750"/>
-		<text x="956" y="6" text-anchor="end">
-			266
+		<rect class="path" style="fill: var(--color-orange)" x="214" width="762"/>
+		<text x="968" y="6" text-anchor="end">
+			267
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -172,6 +174,15 @@
 		<rect class="path" style="fill: var(--color-indigo)" x="802" width="174"/>
 		<text x="968" y="6" text-anchor="end">
 			53
+		</text>
+	</g>
+	<g transform="translate(0 592)">
+		<text class="name" x="192">
+			Лёша Красиков
+		</text>
+		<rect class="path" style="fill: var(--color-magenta)" x="970" width="6"/>
+		<text x="968" y="6" text-anchor="end">
+			1
 		</text>
 	</g>
 	<!-- / hosts -->

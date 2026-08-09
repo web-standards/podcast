@@ -29,12 +29,8 @@ const HOST_COLORS = {
 	'Андрей Мелихов': 'blue',
 	'Юля Миоцен': 'violet',
 	'Полина Гуртовая': 'indigo',
+	'Лёша Красиков': 'magenta',
 };
-
-const FALLBACK_COLORS = [
-	'red', 'orange', 'yellow', 'green',
-	'cyan', 'blue', 'violet', 'indigo',
-];
 
 function canonicalize(name) {
 	return HOST_ALIASES[name] || name;
@@ -189,8 +185,10 @@ function patchSVG(svgContent, hosts, now) {
 	for (let i = 0; i < numHosts; i++) {
 		const host = hosts[i];
 		const y = FIRST_ROW_Y + i * ROW_HEIGHT;
-		const color = HOST_COLORS[host.name]
-			|| FALLBACK_COLORS[i % FALLBACK_COLORS.length];
+		const color = HOST_COLORS[host.name];
+		if (!color) {
+			throw new Error(`No color mapped for host: ${host.name}`);
+		}
 
 		const rectX = LEFT_MARGIN + host.startMonth * PX_PER_MONTH;
 		const rectWidth = host.durationMonths * PX_PER_MONTH;
