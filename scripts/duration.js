@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { execSync } from 'node:child_process';
+import { spawnSync } from 'node:child_process';
 
 const episode = process.argv[2];
 
@@ -23,11 +23,12 @@ if (!fs.existsSync(mp3Path)) {
 }
 
 function getDurationSeconds() {
-	const result = execSync(
-		`ffprobe -v quiet -print_format json -show_format "${mp3Path}"`,
+	const result = spawnSync(
+		'ffprobe',
+		['-v', 'quiet', '-print_format', 'json', '-show_format', mp3Path],
 		{ encoding: 'utf-8' }
 	);
-	const info = JSON.parse(result);
+	const info = JSON.parse(result.stdout);
 	return Math.round(parseFloat(info.format.duration));
 }
 
