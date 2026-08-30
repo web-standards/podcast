@@ -146,7 +146,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="480"/>
 		<text x="968" y="6" text-anchor="end">
-			239
+			240
 		</text>
 	</g>
 	<g transform="translate(0 400)">
@@ -182,7 +182,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-magenta)" x="970" width="6"/>
 		<text x="968" y="6" text-anchor="end">
-			2
+			3
 		</text>
 	</g>
 	<!-- / hosts -->
