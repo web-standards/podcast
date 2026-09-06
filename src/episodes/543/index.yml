@@ -1,0 +1,27 @@
+title: 'Firefox 155, Interop 2027, top-level await, initial-scale, TanStack Charts и переключатели темы'
+
+date: 2026-09-07T09:00
+
+hosts:
+  - Лёша Красиков
+  - Полина Гуртовая
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:22
+    title: 'Новинки Firefox 155'
+  - time: 00:42:14
+    title: 'Предложения в Interop 2027'
+  - time: 00:51:08
+    title: 'Top-level await в Safari'
+  - time: 01:00:39
+    title: 'Ненужный initial-scale'
+  - time: 01:18:54
+    title: 'Альфа TanStack Charts'
+  - time: 01:29:06
+    title: 'Переключатели темы не нужны'
+
+duration: 01:50:46
+length: 106563787
