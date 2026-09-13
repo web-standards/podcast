@@ -1,0 +1,25 @@
+title: 'Chrome 153, MCP-сервер MDN, HTML-бойлерплейт, цвета ярче белого и React 19.3'
+
+date: 2026-09-14T09:00
+
+hosts:
+  - Никита Дубко
+  - Лёша Красиков
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:41
+    title: 'Новинки Chrome 153'
+  - time: 00:22:09
+    title: 'MCP-сервер MDN'
+  - time: 00:29:24
+    title: 'HTML-бойлерплейт'
+  - time: 01:22:34
+    title: 'Цвета ярче белого'
+  - time: 01:33:42
+    title: 'React 19.3'
+
+duration: 01:57:26
+length: 112963353
