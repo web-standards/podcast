@@ -9,6 +9,11 @@ if (!episode) {
 	process.exit(1);
 }
 
+if (!/^[\w-]+$/.test(episode)) {
+	console.error(`Некорректный номер эпизода: ${episode}`);
+	process.exit(1);
+}
+
 const ymlPath = path.join('src', 'episodes', episode, 'index.yml');
 const mp3Path = path.join('src', 'mp3', `${episode}.mp3`);
 
