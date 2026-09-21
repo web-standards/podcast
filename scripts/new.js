@@ -25,7 +25,7 @@ ${table}
 
 function getNextMonday() {
 	const monday = new Date();
-	const daysUntilMonday = ((8 - monday.getUTCDay()) % 7) || 7;
+	const daysUntilMonday = (8 - monday.getUTCDay()) % 7;
 	monday.setUTCDate(monday.getUTCDate() + daysUntilMonday);
 	monday.setUTCHours(9, 0, 0, 0);
 	return monday.toISOString().slice(0, 16);
