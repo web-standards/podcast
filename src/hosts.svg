@@ -110,7 +110,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-red)" x="214" width="768"/>
 		<text x="974" y="6" text-anchor="end">
-			458
+			459
 		</text>
 	</g>
 	<g transform="translate(0 144)">
@@ -119,7 +119,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-orange)" x="214" width="768"/>
 		<text x="974" y="6" text-anchor="end">
-			268
+			269
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -146,7 +146,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="486"/>
 		<text x="974" y="6" text-anchor="end">
-			242
+			243
 		</text>
 	</g>
 	<g transform="translate(0 400)">
