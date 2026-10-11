@@ -119,7 +119,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-orange)" x="214" width="774"/>
 		<text x="980" y="6" text-anchor="end">
-			270
+			271
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -146,7 +146,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-cyan)" x="496" width="492"/>
 		<text x="980" y="6" text-anchor="end">
-			244
+			245
 		</text>
 	</g>
 	<g transform="translate(0 400)">
@@ -171,18 +171,18 @@
 		<text class="name" x="192">
 			Полина Гуртовая
 		</text>
-		<rect class="path" style="fill: var(--color-indigo)" x="802" width="174"/>
-		<text x="968" y="6" text-anchor="end">
-			56
+		<rect class="path" style="fill: var(--color-indigo)" x="802" width="186"/>
+		<text x="980" y="6" text-anchor="end">
+			57
 		</text>
 	</g>
 	<g transform="translate(0 592)">
 		<text class="name" x="192">
 			Лёша Красиков
 		</text>
-		<rect class="path" style="fill: var(--color-magenta)" x="970" width="6"/>
-		<text x="968" y="6" text-anchor="end">
-			5
+		<rect class="path" style="fill: var(--color-magenta)" x="970" width="18"/>
+		<text x="980" y="6" text-anchor="end">
+			6
 		</text>
 	</g>
 	<!-- / hosts -->
