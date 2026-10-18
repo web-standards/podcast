@@ -1,0 +1,22 @@
+title: 'Новинки Firefox 158 и Enterprise, из Electron в PWA и обратно, JPEG XL против AVIF и иконки'
+
+date: 2026-10-19T09:00
+
+hosts:
+  - Вадим Макеев
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:14
+    title: 'Новинки Firefox 158 и Enterprise'
+  - time: 00:33:48
+    title: 'Из Electron в PWA и обратно'
+  - time: 01:13:09
+    title: 'JPEG XL против AVIF'
+  - time: 01:40:38
+    title: 'Иконки в интерфейсах'
+
+duration: 02:10:29
+length: 125491227
