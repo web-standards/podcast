@@ -1,0 +1,23 @@
+title: 'Chrome 156, случайности с CSS random(), споры вокруг WebMCP и порт TypeScript на Rust'
+
+date: 2026-10-26T09:00
+
+hosts:
+  - Никита Дубко
+  - Полина Гуртовая
+  - Вадим Макеев
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:07
+    title: 'Новинки Chrome 156'
+  - time: 00:33:47
+    title: 'Случайности с CSS random()'
+  - time: 00:55:05
+    title: 'Споры вокруг WebMCP'
+  - time: 01:30:13
+    title: 'Порт TypeScript на Rust'
+
+duration: 01:48:06
+length: 104003563
