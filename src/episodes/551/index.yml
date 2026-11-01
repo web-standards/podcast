@@ -1,0 +1,25 @@
+title: 'Safari 27.1 для iPhone Duo, Firefox 159, Node.js 26 LTS и есть ли будущее у веб-компонентов'
+
+date: 2026-11-02T09:00
+
+hosts:
+  - Алексей Симоненко
+  - Вадим Макеев
+  - Никита Дубко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:22
+    title: 'Фичи для iPhone Duo в Safari 27.1'
+  - time: 00:38:59
+    title: 'Остальное в Safari 27.2'
+  - time: 00:54:06
+    title: 'Новинки Firefox 159'
+  - time: 01:14:28
+    title: 'Node.js 26 LTS и альфа 27'
+  - time: 01:34:35
+    title: 'Будущее веб-компонентов'
+
+duration: 02:07:53
+length: 122995769
