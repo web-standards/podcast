@@ -29,7 +29,7 @@
 		"@eslint/js": "^10.0.1",
 		"@eslint/markdown": "^8.0.3",
 		"editorconfig-checker": "^7.0.0",
-		"eslint": "^10.13.0",
+		"eslint": "^10.14.0",
 		"globals": "^17.13.0",
 		"html-minifier-terser": "^7.2.0",
 		"js-yaml": "^5.5.0",
