@@ -110,7 +110,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-red)" x="214" width="780"/>
 		<text x="986" y="6" text-anchor="end">
-			463
+			464
 		</text>
 	</g>
 	<g transform="translate(0 144)">
@@ -119,7 +119,7 @@
 		</text>
 		<rect class="path" style="fill: var(--color-orange)" x="214" width="780"/>
 		<text x="986" y="6" text-anchor="end">
-			272
+			273
 		</text>
 	</g>
 	<g transform="translate(0 208)">
@@ -180,9 +180,9 @@
 		<text class="name" x="192">
 			Лёша Красиков
 		</text>
-		<rect class="path" style="fill: var(--color-magenta)" x="970" width="12"/>
-		<text x="974" y="6" text-anchor="end">
-			6
+		<rect class="path" style="fill: var(--color-magenta)" x="970" width="24"/>
+		<text x="986" y="6" text-anchor="end">
+			7
 		</text>
 	</g>
 	<!-- / hosts -->

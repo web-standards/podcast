@@ -1,0 +1,23 @@
+title: 'Опрос State of JS 2026, Firefox 160, Safari на Apple HomeView и производительность фреймворков'
+
+date: 2026-11-16T09:00
+
+hosts:
+  - Вадим Макеев
+  - Лёша Красиков
+  - Алексей Симоненко
+
+chapters:
+  - time: 00:00:00
+    title: 'Интро'
+  - time: 00:01:38
+    title: 'Опрос State of JS 2026'
+  - time: 00:05:03
+    title: 'Новинки Firefox 160'
+  - time: 00:36:49
+    title: 'Safari на Apple HomeView'
+  - time: 00:54:18
+    title: 'Производительность фреймворков'
+
+duration: 01:52:50
+length: 108547663
